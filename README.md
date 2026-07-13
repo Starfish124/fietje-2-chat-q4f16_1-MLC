@@ -18,7 +18,7 @@ Gebruik in WebLLM:
 ```js
 const appConfig = {
   model_list: [{
-    model: "https://raw.githubusercontent.com/Starfish124/fietje-2-chat-q4f16_1-MLC/main/weights",
+    model: "https://raw.githubusercontent.com/Starfish124/fietje-2-chat-q4f16_1-MLC/main/resolve/main",
     model_id: "fietje-2-chat-q4f16_1-MLC",
     model_lib: "https://raw.githubusercontent.com/mlc-ai/binary-mlc-llm-libs/main/web-llm-models/v0_2_84/phi-2-q4f16_1_cs1k-webgpu.wasm",
     vram_required_MB: 3054,
