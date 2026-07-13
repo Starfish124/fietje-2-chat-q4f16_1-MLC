@@ -1,0 +1,5227 @@
+{
+  "metadata": {
+    "ParamSize": 455,
+    "ParamBytes": 1564948480.0,
+    "BitsPerParam": 4.503961083574167
+  },
+  "records": [
+    {
+      "dataPath": "params_shard_0.bin",
+      "format": "raw-shard",
+      "nbytes": 65536000,
+      "records": [
+        {
+          "name": "lm_head.linear.q_weight",
+          "shape": [
+            51200,
+            320
+          ],
+          "dtype": "uint32",
+          "format": "f32-to-bf16",
+          "nbytes": 65536000,
+          "byteOffset": 0
+        }
+      ],
+      "md5sum": "00bc0d99b42915d37a0c402d9fadb846"
+    },
+    {
+      "dataPath": "params_shard_1.bin",
+      "format": "raw-shard",
+      "nbytes": 23091200,
+      "records": [
+        {
+          "name": "lm_head.linear.bias",
+          "shape": [
+            51200
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 102400,
+          "byteOffset": 0
+        },
+        {
+          "name": "lm_head.linear.q_scale",
+          "shape": [
+            51200,
+            80
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 8192000,
+          "byteOffset": 102400
+        },
+        {
+          "name": "lm_head.ln.bias",
+          "shape": [
+            2560
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 5120,
+          "byteOffset": 8294400
+        },
+        {
+          "name": "lm_head.ln.weight",
+          "shape": [
+            2560
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 5120,
+          "byteOffset": 8299520
+        },
+        {
+          "name": "transformer.h.30.mixer.Wqkv.bias",
+          "shape": [
+            7680
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 15360,
+          "byteOffset": 8304640
+        },
+        {
+          "name": "transformer.h.30.mixer.Wqkv.q_weight",
+          "shape": [
+            7680,
+            320
+          ],
+          "dtype": "uint32",
+          "format": "f32-to-bf16",
+          "nbytes": 9830400,
+          "byteOffset": 8320000
+        },
+        {
+          "name": "transformer.h.30.mixer.Wqkv.q_scale",
+          "shape": [
+            7680,
+            80
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 1228800,
+          "byteOffset": 18150400
+        },
+        {
+          "name": "transformer.h.30.mixer.out_proj.bias",
+          "shape": [
+            2560
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 5120,
+          "byteOffset": 19379200
+        },
+        {
+          "name": "transformer.h.30.mixer.out_proj.q_weight",
+          "shape": [
+            2560,
+            320
+          ],
+          "dtype": "uint32",
+          "format": "f32-to-bf16",
+          "nbytes": 3276800,
+          "byteOffset": 19384320
+        },
+        {
+          "name": "transformer.h.30.mixer.out_proj.q_scale",
+          "shape": [
+            2560,
+            80
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 409600,
+          "byteOffset": 22661120
+        },
+        {
+          "name": "transformer.h.30.mlp.fc1.bias",
+          "shape": [
+            10240
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 20480,
+          "byteOffset": 23070720
+        }
+      ],
+      "md5sum": "66fddc314e0c19f2ab65e6b081e038ac"
+    },
+    {
+      "dataPath": "params_shard_2.bin",
+      "format": "raw-shard",
+      "nbytes": 29521920,
+      "records": [
+        {
+          "name": "transformer.h.30.mlp.fc1.q_weight",
+          "shape": [
+            10240,
+            320
+          ],
+          "dtype": "uint32",
+          "format": "f32-to-bf16",
+          "nbytes": 13107200,
+          "byteOffset": 0
+        },
+        {
+          "name": "transformer.h.30.mlp.fc1.q_scale",
+          "shape": [
+            10240,
+            80
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 1638400,
+          "byteOffset": 13107200
+        },
+        {
+          "name": "transformer.h.30.mlp.fc2.bias",
+          "shape": [
+            2560
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 5120,
+          "byteOffset": 14745600
+        },
+        {
+          "name": "transformer.h.30.mlp.fc2.q_weight",
+          "shape": [
+            2560,
+            1280
+          ],
+          "dtype": "uint32",
+          "format": "f32-to-bf16",
+          "nbytes": 13107200,
+          "byteOffset": 14750720
+        },
+        {
+          "name": "transformer.h.30.mlp.fc2.q_scale",
+          "shape": [
+            2560,
+            320
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 1638400,
+          "byteOffset": 27857920
+        },
+        {
+          "name": "transformer.h.31.ln.bias",
+          "shape": [
+            2560
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 5120,
+          "byteOffset": 29496320
+        },
+        {
+          "name": "transformer.h.31.ln.weight",
+          "shape": [
+            2560
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 5120,
+          "byteOffset": 29501440
+        },
+        {
+          "name": "transformer.h.31.mixer.Wqkv.bias",
+          "shape": [
+            7680
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 15360,
+          "byteOffset": 29506560
+        }
+      ],
+      "md5sum": "d631ba49eaf4ebe979900b979496c525"
+    },
+    {
+      "dataPath": "params_shard_3.bin",
+      "format": "raw-shard",
+      "nbytes": 29521920,
+      "records": [
+        {
+          "name": "transformer.h.31.mixer.Wqkv.q_weight",
+          "shape": [
+            7680,
+            320
+          ],
+          "dtype": "uint32",
+          "format": "f32-to-bf16",
+          "nbytes": 9830400,
+          "byteOffset": 0
+        },
+        {
+          "name": "transformer.h.31.mixer.Wqkv.q_scale",
+          "shape": [
+            7680,
+            80
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 1228800,
+          "byteOffset": 9830400
+        },
+        {
+          "name": "transformer.h.31.mixer.out_proj.bias",
+          "shape": [
+            2560
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 5120,
+          "byteOffset": 11059200
+        },
+        {
+          "name": "transformer.h.31.mixer.out_proj.q_weight",
+          "shape": [
+            2560,
+            320
+          ],
+          "dtype": "uint32",
+          "format": "f32-to-bf16",
+          "nbytes": 3276800,
+          "byteOffset": 11064320
+        },
+        {
+          "name": "transformer.h.31.mixer.out_proj.q_scale",
+          "shape": [
+            2560,
+            80
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 409600,
+          "byteOffset": 14341120
+        },
+        {
+          "name": "transformer.h.31.mlp.fc1.bias",
+          "shape": [
+            10240
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 20480,
+          "byteOffset": 14750720
+        },
+        {
+          "name": "transformer.h.31.mlp.fc1.q_weight",
+          "shape": [
+            10240,
+            320
+          ],
+          "dtype": "uint32",
+          "format": "f32-to-bf16",
+          "nbytes": 13107200,
+          "byteOffset": 14771200
+        },
+        {
+          "name": "transformer.h.31.mlp.fc1.q_scale",
+          "shape": [
+            10240,
+            80
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 1638400,
+          "byteOffset": 27878400
+        },
+        {
+          "name": "transformer.h.31.mlp.fc2.bias",
+          "shape": [
+            2560
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 5120,
+          "byteOffset": 29516800
+        }
+      ],
+      "md5sum": "bd1e528d0c17fc700e5d0f58fe092e2e"
+    },
+    {
+      "dataPath": "params_shard_4.bin",
+      "format": "raw-shard",
+      "nbytes": 65536000,
+      "records": [
+        {
+          "name": "transformer.embd.q_weight",
+          "shape": [
+            51200,
+            320
+          ],
+          "dtype": "uint32",
+          "format": "f32-to-bf16",
+          "nbytes": 65536000,
+          "byteOffset": 0
+        }
+      ],
+      "md5sum": "a32829672f47c5848bd32124b284b6ee"
+    },
+    {
+      "dataPath": "params_shard_5.bin",
+      "format": "raw-shard",
+      "nbytes": 32793600,
+      "records": [
+        {
+          "name": "transformer.h.31.mlp.fc2.q_weight",
+          "shape": [
+            2560,
+            1280
+          ],
+          "dtype": "uint32",
+          "format": "f32-to-bf16",
+          "nbytes": 13107200,
+          "byteOffset": 0
+        },
+        {
+          "name": "transformer.h.31.mlp.fc2.q_scale",
+          "shape": [
+            2560,
+            320
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 1638400,
+          "byteOffset": 13107200
+        },
+        {
+          "name": "transformer.embd.q_scale",
+          "shape": [
+            51200,
+            80
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 8192000,
+          "byteOffset": 14745600
+        },
+        {
+          "name": "transformer.h.0.ln.bias",
+          "shape": [
+            2560
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 5120,
+          "byteOffset": 22937600
+        },
+        {
+          "name": "transformer.h.0.ln.weight",
+          "shape": [
+            2560
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 5120,
+          "byteOffset": 22942720
+        },
+        {
+          "name": "transformer.h.0.mixer.Wqkv.bias",
+          "shape": [
+            7680
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 15360,
+          "byteOffset": 22947840
+        },
+        {
+          "name": "transformer.h.0.mixer.Wqkv.q_weight",
+          "shape": [
+            7680,
+            320
+          ],
+          "dtype": "uint32",
+          "format": "f32-to-bf16",
+          "nbytes": 9830400,
+          "byteOffset": 22963200
+        }
+      ],
+      "md5sum": "808f3eb794603dbd06e3813b0eed9f93"
+    },
+    {
+      "dataPath": "params_shard_6.bin",
+      "format": "raw-shard",
+      "nbytes": 32798720,
+      "records": [
+        {
+          "name": "transformer.h.0.mixer.Wqkv.q_scale",
+          "shape": [
+            7680,
+            80
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 1228800,
+          "byteOffset": 0
+        },
+        {
+          "name": "transformer.h.0.mixer.out_proj.bias",
+          "shape": [
+            2560
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 5120,
+          "byteOffset": 1228800
+        },
+        {
+          "name": "transformer.h.0.mixer.out_proj.q_weight",
+          "shape": [
+            2560,
+            320
+          ],
+          "dtype": "uint32",
+          "format": "f32-to-bf16",
+          "nbytes": 3276800,
+          "byteOffset": 1233920
+        },
+        {
+          "name": "transformer.h.0.mixer.out_proj.q_scale",
+          "shape": [
+            2560,
+            80
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 409600,
+          "byteOffset": 4510720
+        },
+        {
+          "name": "transformer.h.0.mlp.fc1.bias",
+          "shape": [
+            10240
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 20480,
+          "byteOffset": 4920320
+        },
+        {
+          "name": "transformer.h.0.mlp.fc1.q_weight",
+          "shape": [
+            10240,
+            320
+          ],
+          "dtype": "uint32",
+          "format": "f32-to-bf16",
+          "nbytes": 13107200,
+          "byteOffset": 4940800
+        },
+        {
+          "name": "transformer.h.0.mlp.fc1.q_scale",
+          "shape": [
+            10240,
+            80
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 1638400,
+          "byteOffset": 18048000
+        },
+        {
+          "name": "transformer.h.0.mlp.fc2.bias",
+          "shape": [
+            2560
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 5120,
+          "byteOffset": 19686400
+        },
+        {
+          "name": "transformer.h.0.mlp.fc2.q_weight",
+          "shape": [
+            2560,
+            1280
+          ],
+          "dtype": "uint32",
+          "format": "f32-to-bf16",
+          "nbytes": 13107200,
+          "byteOffset": 19691520
+        }
+      ],
+      "md5sum": "4a52d725493cfc8bcd861c361d4577c4"
+    },
+    {
+      "dataPath": "params_shard_7.bin",
+      "format": "raw-shard",
+      "nbytes": 31185920,
+      "records": [
+        {
+          "name": "transformer.h.0.mlp.fc2.q_scale",
+          "shape": [
+            2560,
+            320
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 1638400,
+          "byteOffset": 0
+        },
+        {
+          "name": "transformer.h.1.ln.bias",
+          "shape": [
+            2560
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 5120,
+          "byteOffset": 1638400
+        },
+        {
+          "name": "transformer.h.1.ln.weight",
+          "shape": [
+            2560
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 5120,
+          "byteOffset": 1643520
+        },
+        {
+          "name": "transformer.h.1.mixer.Wqkv.bias",
+          "shape": [
+            7680
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 15360,
+          "byteOffset": 1648640
+        },
+        {
+          "name": "transformer.h.1.mixer.Wqkv.q_weight",
+          "shape": [
+            7680,
+            320
+          ],
+          "dtype": "uint32",
+          "format": "f32-to-bf16",
+          "nbytes": 9830400,
+          "byteOffset": 1664000
+        },
+        {
+          "name": "transformer.h.1.mixer.Wqkv.q_scale",
+          "shape": [
+            7680,
+            80
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 1228800,
+          "byteOffset": 11494400
+        },
+        {
+          "name": "transformer.h.1.mixer.out_proj.bias",
+          "shape": [
+            2560
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 5120,
+          "byteOffset": 12723200
+        },
+        {
+          "name": "transformer.h.1.mixer.out_proj.q_weight",
+          "shape": [
+            2560,
+            320
+          ],
+          "dtype": "uint32",
+          "format": "f32-to-bf16",
+          "nbytes": 3276800,
+          "byteOffset": 12728320
+        },
+        {
+          "name": "transformer.h.1.mixer.out_proj.q_scale",
+          "shape": [
+            2560,
+            80
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 409600,
+          "byteOffset": 16005120
+        },
+        {
+          "name": "transformer.h.1.mlp.fc1.bias",
+          "shape": [
+            10240
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 20480,
+          "byteOffset": 16414720
+        },
+        {
+          "name": "transformer.h.1.mlp.fc1.q_weight",
+          "shape": [
+            10240,
+            320
+          ],
+          "dtype": "uint32",
+          "format": "f32-to-bf16",
+          "nbytes": 13107200,
+          "byteOffset": 16435200
+        },
+        {
+          "name": "transformer.h.1.mlp.fc1.q_scale",
+          "shape": [
+            10240,
+            80
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 1638400,
+          "byteOffset": 29542400
+        },
+        {
+          "name": "transformer.h.1.mlp.fc2.bias",
+          "shape": [
+            2560
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 5120,
+          "byteOffset": 31180800
+        }
+      ],
+      "md5sum": "09dae5f8a4b2068bb04a9d39f91ccccd"
+    },
+    {
+      "dataPath": "params_shard_8.bin",
+      "format": "raw-shard",
+      "nbytes": 29542400,
+      "records": [
+        {
+          "name": "transformer.h.1.mlp.fc2.q_weight",
+          "shape": [
+            2560,
+            1280
+          ],
+          "dtype": "uint32",
+          "format": "f32-to-bf16",
+          "nbytes": 13107200,
+          "byteOffset": 0
+        },
+        {
+          "name": "transformer.h.1.mlp.fc2.q_scale",
+          "shape": [
+            2560,
+            320
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 1638400,
+          "byteOffset": 13107200
+        },
+        {
+          "name": "transformer.h.10.ln.bias",
+          "shape": [
+            2560
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 5120,
+          "byteOffset": 14745600
+        },
+        {
+          "name": "transformer.h.10.ln.weight",
+          "shape": [
+            2560
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 5120,
+          "byteOffset": 14750720
+        },
+        {
+          "name": "transformer.h.10.mixer.Wqkv.bias",
+          "shape": [
+            7680
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 15360,
+          "byteOffset": 14755840
+        },
+        {
+          "name": "transformer.h.10.mixer.Wqkv.q_weight",
+          "shape": [
+            7680,
+            320
+          ],
+          "dtype": "uint32",
+          "format": "f32-to-bf16",
+          "nbytes": 9830400,
+          "byteOffset": 14771200
+        },
+        {
+          "name": "transformer.h.10.mixer.Wqkv.q_scale",
+          "shape": [
+            7680,
+            80
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 1228800,
+          "byteOffset": 24601600
+        },
+        {
+          "name": "transformer.h.10.mixer.out_proj.bias",
+          "shape": [
+            2560
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 5120,
+          "byteOffset": 25830400
+        },
+        {
+          "name": "transformer.h.10.mixer.out_proj.q_weight",
+          "shape": [
+            2560,
+            320
+          ],
+          "dtype": "uint32",
+          "format": "f32-to-bf16",
+          "nbytes": 3276800,
+          "byteOffset": 25835520
+        },
+        {
+          "name": "transformer.h.10.mixer.out_proj.q_scale",
+          "shape": [
+            2560,
+            80
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 409600,
+          "byteOffset": 29112320
+        },
+        {
+          "name": "transformer.h.10.mlp.fc1.bias",
+          "shape": [
+            10240
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 20480,
+          "byteOffset": 29521920
+        }
+      ],
+      "md5sum": "5957a4af724988f82b3821d2d2a93925"
+    },
+    {
+      "dataPath": "params_shard_9.bin",
+      "format": "raw-shard",
+      "nbytes": 29521920,
+      "records": [
+        {
+          "name": "transformer.h.10.mlp.fc1.q_weight",
+          "shape": [
+            10240,
+            320
+          ],
+          "dtype": "uint32",
+          "format": "f32-to-bf16",
+          "nbytes": 13107200,
+          "byteOffset": 0
+        },
+        {
+          "name": "transformer.h.10.mlp.fc1.q_scale",
+          "shape": [
+            10240,
+            80
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 1638400,
+          "byteOffset": 13107200
+        },
+        {
+          "name": "transformer.h.10.mlp.fc2.bias",
+          "shape": [
+            2560
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 5120,
+          "byteOffset": 14745600
+        },
+        {
+          "name": "transformer.h.10.mlp.fc2.q_weight",
+          "shape": [
+            2560,
+            1280
+          ],
+          "dtype": "uint32",
+          "format": "f32-to-bf16",
+          "nbytes": 13107200,
+          "byteOffset": 14750720
+        },
+        {
+          "name": "transformer.h.10.mlp.fc2.q_scale",
+          "shape": [
+            2560,
+            320
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 1638400,
+          "byteOffset": 27857920
+        },
+        {
+          "name": "transformer.h.11.ln.bias",
+          "shape": [
+            2560
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 5120,
+          "byteOffset": 29496320
+        },
+        {
+          "name": "transformer.h.11.ln.weight",
+          "shape": [
+            2560
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 5120,
+          "byteOffset": 29501440
+        },
+        {
+          "name": "transformer.h.11.mixer.Wqkv.bias",
+          "shape": [
+            7680
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 15360,
+          "byteOffset": 29506560
+        }
+      ],
+      "md5sum": "d2f83414108ca6a1c1b5cd82d6eadc6c"
+    },
+    {
+      "dataPath": "params_shard_10.bin",
+      "format": "raw-shard",
+      "nbytes": 29521920,
+      "records": [
+        {
+          "name": "transformer.h.11.mixer.Wqkv.q_weight",
+          "shape": [
+            7680,
+            320
+          ],
+          "dtype": "uint32",
+          "format": "f32-to-bf16",
+          "nbytes": 9830400,
+          "byteOffset": 0
+        },
+        {
+          "name": "transformer.h.11.mixer.Wqkv.q_scale",
+          "shape": [
+            7680,
+            80
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 1228800,
+          "byteOffset": 9830400
+        },
+        {
+          "name": "transformer.h.11.mixer.out_proj.bias",
+          "shape": [
+            2560
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 5120,
+          "byteOffset": 11059200
+        },
+        {
+          "name": "transformer.h.11.mixer.out_proj.q_weight",
+          "shape": [
+            2560,
+            320
+          ],
+          "dtype": "uint32",
+          "format": "f32-to-bf16",
+          "nbytes": 3276800,
+          "byteOffset": 11064320
+        },
+        {
+          "name": "transformer.h.11.mixer.out_proj.q_scale",
+          "shape": [
+            2560,
+            80
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 409600,
+          "byteOffset": 14341120
+        },
+        {
+          "name": "transformer.h.11.mlp.fc1.bias",
+          "shape": [
+            10240
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 20480,
+          "byteOffset": 14750720
+        },
+        {
+          "name": "transformer.h.11.mlp.fc1.q_weight",
+          "shape": [
+            10240,
+            320
+          ],
+          "dtype": "uint32",
+          "format": "f32-to-bf16",
+          "nbytes": 13107200,
+          "byteOffset": 14771200
+        },
+        {
+          "name": "transformer.h.11.mlp.fc1.q_scale",
+          "shape": [
+            10240,
+            80
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 1638400,
+          "byteOffset": 27878400
+        },
+        {
+          "name": "transformer.h.11.mlp.fc2.bias",
+          "shape": [
+            2560
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 5120,
+          "byteOffset": 29516800
+        }
+      ],
+      "md5sum": "bd801cd2f05f864a367ebc69c86994ad"
+    },
+    {
+      "dataPath": "params_shard_11.bin",
+      "format": "raw-shard",
+      "nbytes": 29542400,
+      "records": [
+        {
+          "name": "transformer.h.11.mlp.fc2.q_weight",
+          "shape": [
+            2560,
+            1280
+          ],
+          "dtype": "uint32",
+          "format": "f32-to-bf16",
+          "nbytes": 13107200,
+          "byteOffset": 0
+        },
+        {
+          "name": "transformer.h.11.mlp.fc2.q_scale",
+          "shape": [
+            2560,
+            320
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 1638400,
+          "byteOffset": 13107200
+        },
+        {
+          "name": "transformer.h.12.ln.bias",
+          "shape": [
+            2560
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 5120,
+          "byteOffset": 14745600
+        },
+        {
+          "name": "transformer.h.12.ln.weight",
+          "shape": [
+            2560
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 5120,
+          "byteOffset": 14750720
+        },
+        {
+          "name": "transformer.h.12.mixer.Wqkv.bias",
+          "shape": [
+            7680
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 15360,
+          "byteOffset": 14755840
+        },
+        {
+          "name": "transformer.h.12.mixer.Wqkv.q_weight",
+          "shape": [
+            7680,
+            320
+          ],
+          "dtype": "uint32",
+          "format": "f32-to-bf16",
+          "nbytes": 9830400,
+          "byteOffset": 14771200
+        },
+        {
+          "name": "transformer.h.12.mixer.Wqkv.q_scale",
+          "shape": [
+            7680,
+            80
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 1228800,
+          "byteOffset": 24601600
+        },
+        {
+          "name": "transformer.h.12.mixer.out_proj.bias",
+          "shape": [
+            2560
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 5120,
+          "byteOffset": 25830400
+        },
+        {
+          "name": "transformer.h.12.mixer.out_proj.q_weight",
+          "shape": [
+            2560,
+            320
+          ],
+          "dtype": "uint32",
+          "format": "f32-to-bf16",
+          "nbytes": 3276800,
+          "byteOffset": 25835520
+        },
+        {
+          "name": "transformer.h.12.mixer.out_proj.q_scale",
+          "shape": [
+            2560,
+            80
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 409600,
+          "byteOffset": 29112320
+        },
+        {
+          "name": "transformer.h.12.mlp.fc1.bias",
+          "shape": [
+            10240
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 20480,
+          "byteOffset": 29521920
+        }
+      ],
+      "md5sum": "a3fb99da339e0cfe0235c93482add814"
+    },
+    {
+      "dataPath": "params_shard_12.bin",
+      "format": "raw-shard",
+      "nbytes": 29521920,
+      "records": [
+        {
+          "name": "transformer.h.12.mlp.fc1.q_weight",
+          "shape": [
+            10240,
+            320
+          ],
+          "dtype": "uint32",
+          "format": "f32-to-bf16",
+          "nbytes": 13107200,
+          "byteOffset": 0
+        },
+        {
+          "name": "transformer.h.12.mlp.fc1.q_scale",
+          "shape": [
+            10240,
+            80
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 1638400,
+          "byteOffset": 13107200
+        },
+        {
+          "name": "transformer.h.12.mlp.fc2.bias",
+          "shape": [
+            2560
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 5120,
+          "byteOffset": 14745600
+        },
+        {
+          "name": "transformer.h.12.mlp.fc2.q_weight",
+          "shape": [
+            2560,
+            1280
+          ],
+          "dtype": "uint32",
+          "format": "f32-to-bf16",
+          "nbytes": 13107200,
+          "byteOffset": 14750720
+        },
+        {
+          "name": "transformer.h.12.mlp.fc2.q_scale",
+          "shape": [
+            2560,
+            320
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 1638400,
+          "byteOffset": 27857920
+        },
+        {
+          "name": "transformer.h.13.ln.bias",
+          "shape": [
+            2560
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 5120,
+          "byteOffset": 29496320
+        },
+        {
+          "name": "transformer.h.13.ln.weight",
+          "shape": [
+            2560
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 5120,
+          "byteOffset": 29501440
+        },
+        {
+          "name": "transformer.h.13.mixer.Wqkv.bias",
+          "shape": [
+            7680
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 15360,
+          "byteOffset": 29506560
+        }
+      ],
+      "md5sum": "ac56c204ce91009c5002ea52ddf287f8"
+    },
+    {
+      "dataPath": "params_shard_13.bin",
+      "format": "raw-shard",
+      "nbytes": 29521920,
+      "records": [
+        {
+          "name": "transformer.h.13.mixer.Wqkv.q_weight",
+          "shape": [
+            7680,
+            320
+          ],
+          "dtype": "uint32",
+          "format": "f32-to-bf16",
+          "nbytes": 9830400,
+          "byteOffset": 0
+        },
+        {
+          "name": "transformer.h.13.mixer.Wqkv.q_scale",
+          "shape": [
+            7680,
+            80
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 1228800,
+          "byteOffset": 9830400
+        },
+        {
+          "name": "transformer.h.13.mixer.out_proj.bias",
+          "shape": [
+            2560
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 5120,
+          "byteOffset": 11059200
+        },
+        {
+          "name": "transformer.h.13.mixer.out_proj.q_weight",
+          "shape": [
+            2560,
+            320
+          ],
+          "dtype": "uint32",
+          "format": "f32-to-bf16",
+          "nbytes": 3276800,
+          "byteOffset": 11064320
+        },
+        {
+          "name": "transformer.h.13.mixer.out_proj.q_scale",
+          "shape": [
+            2560,
+            80
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 409600,
+          "byteOffset": 14341120
+        },
+        {
+          "name": "transformer.h.13.mlp.fc1.bias",
+          "shape": [
+            10240
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 20480,
+          "byteOffset": 14750720
+        },
+        {
+          "name": "transformer.h.13.mlp.fc1.q_weight",
+          "shape": [
+            10240,
+            320
+          ],
+          "dtype": "uint32",
+          "format": "f32-to-bf16",
+          "nbytes": 13107200,
+          "byteOffset": 14771200
+        },
+        {
+          "name": "transformer.h.13.mlp.fc1.q_scale",
+          "shape": [
+            10240,
+            80
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 1638400,
+          "byteOffset": 27878400
+        },
+        {
+          "name": "transformer.h.13.mlp.fc2.bias",
+          "shape": [
+            2560
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 5120,
+          "byteOffset": 29516800
+        }
+      ],
+      "md5sum": "83d503f74a6c8018c35fb1a94e2c4ca6"
+    },
+    {
+      "dataPath": "params_shard_14.bin",
+      "format": "raw-shard",
+      "nbytes": 29542400,
+      "records": [
+        {
+          "name": "transformer.h.13.mlp.fc2.q_weight",
+          "shape": [
+            2560,
+            1280
+          ],
+          "dtype": "uint32",
+          "format": "f32-to-bf16",
+          "nbytes": 13107200,
+          "byteOffset": 0
+        },
+        {
+          "name": "transformer.h.13.mlp.fc2.q_scale",
+          "shape": [
+            2560,
+            320
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 1638400,
+          "byteOffset": 13107200
+        },
+        {
+          "name": "transformer.h.14.ln.bias",
+          "shape": [
+            2560
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 5120,
+          "byteOffset": 14745600
+        },
+        {
+          "name": "transformer.h.14.ln.weight",
+          "shape": [
+            2560
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 5120,
+          "byteOffset": 14750720
+        },
+        {
+          "name": "transformer.h.14.mixer.Wqkv.bias",
+          "shape": [
+            7680
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 15360,
+          "byteOffset": 14755840
+        },
+        {
+          "name": "transformer.h.14.mixer.Wqkv.q_weight",
+          "shape": [
+            7680,
+            320
+          ],
+          "dtype": "uint32",
+          "format": "f32-to-bf16",
+          "nbytes": 9830400,
+          "byteOffset": 14771200
+        },
+        {
+          "name": "transformer.h.14.mixer.Wqkv.q_scale",
+          "shape": [
+            7680,
+            80
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 1228800,
+          "byteOffset": 24601600
+        },
+        {
+          "name": "transformer.h.14.mixer.out_proj.bias",
+          "shape": [
+            2560
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 5120,
+          "byteOffset": 25830400
+        },
+        {
+          "name": "transformer.h.14.mixer.out_proj.q_weight",
+          "shape": [
+            2560,
+            320
+          ],
+          "dtype": "uint32",
+          "format": "f32-to-bf16",
+          "nbytes": 3276800,
+          "byteOffset": 25835520
+        },
+        {
+          "name": "transformer.h.14.mixer.out_proj.q_scale",
+          "shape": [
+            2560,
+            80
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 409600,
+          "byteOffset": 29112320
+        },
+        {
+          "name": "transformer.h.14.mlp.fc1.bias",
+          "shape": [
+            10240
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 20480,
+          "byteOffset": 29521920
+        }
+      ],
+      "md5sum": "2ab3803944f13c839d804685ad46e8b6"
+    },
+    {
+      "dataPath": "params_shard_15.bin",
+      "format": "raw-shard",
+      "nbytes": 29521920,
+      "records": [
+        {
+          "name": "transformer.h.14.mlp.fc1.q_weight",
+          "shape": [
+            10240,
+            320
+          ],
+          "dtype": "uint32",
+          "format": "f32-to-bf16",
+          "nbytes": 13107200,
+          "byteOffset": 0
+        },
+        {
+          "name": "transformer.h.14.mlp.fc1.q_scale",
+          "shape": [
+            10240,
+            80
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 1638400,
+          "byteOffset": 13107200
+        },
+        {
+          "name": "transformer.h.14.mlp.fc2.bias",
+          "shape": [
+            2560
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 5120,
+          "byteOffset": 14745600
+        },
+        {
+          "name": "transformer.h.14.mlp.fc2.q_weight",
+          "shape": [
+            2560,
+            1280
+          ],
+          "dtype": "uint32",
+          "format": "f32-to-bf16",
+          "nbytes": 13107200,
+          "byteOffset": 14750720
+        },
+        {
+          "name": "transformer.h.14.mlp.fc2.q_scale",
+          "shape": [
+            2560,
+            320
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 1638400,
+          "byteOffset": 27857920
+        },
+        {
+          "name": "transformer.h.15.ln.bias",
+          "shape": [
+            2560
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 5120,
+          "byteOffset": 29496320
+        },
+        {
+          "name": "transformer.h.15.ln.weight",
+          "shape": [
+            2560
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 5120,
+          "byteOffset": 29501440
+        },
+        {
+          "name": "transformer.h.15.mixer.Wqkv.bias",
+          "shape": [
+            7680
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 15360,
+          "byteOffset": 29506560
+        }
+      ],
+      "md5sum": "dca4b06f6eac8dbfed59509063192d22"
+    },
+    {
+      "dataPath": "params_shard_16.bin",
+      "format": "raw-shard",
+      "nbytes": 29521920,
+      "records": [
+        {
+          "name": "transformer.h.15.mixer.Wqkv.q_weight",
+          "shape": [
+            7680,
+            320
+          ],
+          "dtype": "uint32",
+          "format": "f32-to-bf16",
+          "nbytes": 9830400,
+          "byteOffset": 0
+        },
+        {
+          "name": "transformer.h.15.mixer.Wqkv.q_scale",
+          "shape": [
+            7680,
+            80
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 1228800,
+          "byteOffset": 9830400
+        },
+        {
+          "name": "transformer.h.15.mixer.out_proj.bias",
+          "shape": [
+            2560
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 5120,
+          "byteOffset": 11059200
+        },
+        {
+          "name": "transformer.h.15.mixer.out_proj.q_weight",
+          "shape": [
+            2560,
+            320
+          ],
+          "dtype": "uint32",
+          "format": "f32-to-bf16",
+          "nbytes": 3276800,
+          "byteOffset": 11064320
+        },
+        {
+          "name": "transformer.h.15.mixer.out_proj.q_scale",
+          "shape": [
+            2560,
+            80
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 409600,
+          "byteOffset": 14341120
+        },
+        {
+          "name": "transformer.h.15.mlp.fc1.bias",
+          "shape": [
+            10240
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 20480,
+          "byteOffset": 14750720
+        },
+        {
+          "name": "transformer.h.15.mlp.fc1.q_weight",
+          "shape": [
+            10240,
+            320
+          ],
+          "dtype": "uint32",
+          "format": "f32-to-bf16",
+          "nbytes": 13107200,
+          "byteOffset": 14771200
+        },
+        {
+          "name": "transformer.h.15.mlp.fc1.q_scale",
+          "shape": [
+            10240,
+            80
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 1638400,
+          "byteOffset": 27878400
+        },
+        {
+          "name": "transformer.h.15.mlp.fc2.bias",
+          "shape": [
+            2560
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 5120,
+          "byteOffset": 29516800
+        }
+      ],
+      "md5sum": "5924fe2d0d9174f05efd041f8fbe1b19"
+    },
+    {
+      "dataPath": "params_shard_17.bin",
+      "format": "raw-shard",
+      "nbytes": 29542400,
+      "records": [
+        {
+          "name": "transformer.h.15.mlp.fc2.q_weight",
+          "shape": [
+            2560,
+            1280
+          ],
+          "dtype": "uint32",
+          "format": "f32-to-bf16",
+          "nbytes": 13107200,
+          "byteOffset": 0
+        },
+        {
+          "name": "transformer.h.15.mlp.fc2.q_scale",
+          "shape": [
+            2560,
+            320
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 1638400,
+          "byteOffset": 13107200
+        },
+        {
+          "name": "transformer.h.16.ln.bias",
+          "shape": [
+            2560
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 5120,
+          "byteOffset": 14745600
+        },
+        {
+          "name": "transformer.h.16.ln.weight",
+          "shape": [
+            2560
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 5120,
+          "byteOffset": 14750720
+        },
+        {
+          "name": "transformer.h.16.mixer.Wqkv.bias",
+          "shape": [
+            7680
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 15360,
+          "byteOffset": 14755840
+        },
+        {
+          "name": "transformer.h.16.mixer.Wqkv.q_weight",
+          "shape": [
+            7680,
+            320
+          ],
+          "dtype": "uint32",
+          "format": "f32-to-bf16",
+          "nbytes": 9830400,
+          "byteOffset": 14771200
+        },
+        {
+          "name": "transformer.h.16.mixer.Wqkv.q_scale",
+          "shape": [
+            7680,
+            80
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 1228800,
+          "byteOffset": 24601600
+        },
+        {
+          "name": "transformer.h.16.mixer.out_proj.bias",
+          "shape": [
+            2560
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 5120,
+          "byteOffset": 25830400
+        },
+        {
+          "name": "transformer.h.16.mixer.out_proj.q_weight",
+          "shape": [
+            2560,
+            320
+          ],
+          "dtype": "uint32",
+          "format": "f32-to-bf16",
+          "nbytes": 3276800,
+          "byteOffset": 25835520
+        },
+        {
+          "name": "transformer.h.16.mixer.out_proj.q_scale",
+          "shape": [
+            2560,
+            80
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 409600,
+          "byteOffset": 29112320
+        },
+        {
+          "name": "transformer.h.16.mlp.fc1.bias",
+          "shape": [
+            10240
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 20480,
+          "byteOffset": 29521920
+        }
+      ],
+      "md5sum": "08f5a28439d84400edca32047c54ce2b"
+    },
+    {
+      "dataPath": "params_shard_18.bin",
+      "format": "raw-shard",
+      "nbytes": 29521920,
+      "records": [
+        {
+          "name": "transformer.h.16.mlp.fc1.q_weight",
+          "shape": [
+            10240,
+            320
+          ],
+          "dtype": "uint32",
+          "format": "f32-to-bf16",
+          "nbytes": 13107200,
+          "byteOffset": 0
+        },
+        {
+          "name": "transformer.h.16.mlp.fc1.q_scale",
+          "shape": [
+            10240,
+            80
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 1638400,
+          "byteOffset": 13107200
+        },
+        {
+          "name": "transformer.h.16.mlp.fc2.bias",
+          "shape": [
+            2560
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 5120,
+          "byteOffset": 14745600
+        },
+        {
+          "name": "transformer.h.16.mlp.fc2.q_weight",
+          "shape": [
+            2560,
+            1280
+          ],
+          "dtype": "uint32",
+          "format": "f32-to-bf16",
+          "nbytes": 13107200,
+          "byteOffset": 14750720
+        },
+        {
+          "name": "transformer.h.16.mlp.fc2.q_scale",
+          "shape": [
+            2560,
+            320
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 1638400,
+          "byteOffset": 27857920
+        },
+        {
+          "name": "transformer.h.17.ln.bias",
+          "shape": [
+            2560
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 5120,
+          "byteOffset": 29496320
+        },
+        {
+          "name": "transformer.h.17.ln.weight",
+          "shape": [
+            2560
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 5120,
+          "byteOffset": 29501440
+        },
+        {
+          "name": "transformer.h.17.mixer.Wqkv.bias",
+          "shape": [
+            7680
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 15360,
+          "byteOffset": 29506560
+        }
+      ],
+      "md5sum": "97c0cee522e6853e3549c1b5169b3355"
+    },
+    {
+      "dataPath": "params_shard_19.bin",
+      "format": "raw-shard",
+      "nbytes": 29521920,
+      "records": [
+        {
+          "name": "transformer.h.17.mixer.Wqkv.q_weight",
+          "shape": [
+            7680,
+            320
+          ],
+          "dtype": "uint32",
+          "format": "f32-to-bf16",
+          "nbytes": 9830400,
+          "byteOffset": 0
+        },
+        {
+          "name": "transformer.h.17.mixer.Wqkv.q_scale",
+          "shape": [
+            7680,
+            80
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 1228800,
+          "byteOffset": 9830400
+        },
+        {
+          "name": "transformer.h.17.mixer.out_proj.bias",
+          "shape": [
+            2560
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 5120,
+          "byteOffset": 11059200
+        },
+        {
+          "name": "transformer.h.17.mixer.out_proj.q_weight",
+          "shape": [
+            2560,
+            320
+          ],
+          "dtype": "uint32",
+          "format": "f32-to-bf16",
+          "nbytes": 3276800,
+          "byteOffset": 11064320
+        },
+        {
+          "name": "transformer.h.17.mixer.out_proj.q_scale",
+          "shape": [
+            2560,
+            80
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 409600,
+          "byteOffset": 14341120
+        },
+        {
+          "name": "transformer.h.17.mlp.fc1.bias",
+          "shape": [
+            10240
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 20480,
+          "byteOffset": 14750720
+        },
+        {
+          "name": "transformer.h.17.mlp.fc1.q_weight",
+          "shape": [
+            10240,
+            320
+          ],
+          "dtype": "uint32",
+          "format": "f32-to-bf16",
+          "nbytes": 13107200,
+          "byteOffset": 14771200
+        },
+        {
+          "name": "transformer.h.17.mlp.fc1.q_scale",
+          "shape": [
+            10240,
+            80
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 1638400,
+          "byteOffset": 27878400
+        },
+        {
+          "name": "transformer.h.17.mlp.fc2.bias",
+          "shape": [
+            2560
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 5120,
+          "byteOffset": 29516800
+        }
+      ],
+      "md5sum": "ffbe1253f9d6cb8ba3d0aaf4d9535487"
+    },
+    {
+      "dataPath": "params_shard_20.bin",
+      "format": "raw-shard",
+      "nbytes": 29542400,
+      "records": [
+        {
+          "name": "transformer.h.17.mlp.fc2.q_weight",
+          "shape": [
+            2560,
+            1280
+          ],
+          "dtype": "uint32",
+          "format": "f32-to-bf16",
+          "nbytes": 13107200,
+          "byteOffset": 0
+        },
+        {
+          "name": "transformer.h.17.mlp.fc2.q_scale",
+          "shape": [
+            2560,
+            320
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 1638400,
+          "byteOffset": 13107200
+        },
+        {
+          "name": "transformer.h.18.ln.bias",
+          "shape": [
+            2560
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 5120,
+          "byteOffset": 14745600
+        },
+        {
+          "name": "transformer.h.18.ln.weight",
+          "shape": [
+            2560
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 5120,
+          "byteOffset": 14750720
+        },
+        {
+          "name": "transformer.h.18.mixer.Wqkv.bias",
+          "shape": [
+            7680
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 15360,
+          "byteOffset": 14755840
+        },
+        {
+          "name": "transformer.h.18.mixer.Wqkv.q_weight",
+          "shape": [
+            7680,
+            320
+          ],
+          "dtype": "uint32",
+          "format": "f32-to-bf16",
+          "nbytes": 9830400,
+          "byteOffset": 14771200
+        },
+        {
+          "name": "transformer.h.18.mixer.Wqkv.q_scale",
+          "shape": [
+            7680,
+            80
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 1228800,
+          "byteOffset": 24601600
+        },
+        {
+          "name": "transformer.h.18.mixer.out_proj.bias",
+          "shape": [
+            2560
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 5120,
+          "byteOffset": 25830400
+        },
+        {
+          "name": "transformer.h.18.mixer.out_proj.q_weight",
+          "shape": [
+            2560,
+            320
+          ],
+          "dtype": "uint32",
+          "format": "f32-to-bf16",
+          "nbytes": 3276800,
+          "byteOffset": 25835520
+        },
+        {
+          "name": "transformer.h.18.mixer.out_proj.q_scale",
+          "shape": [
+            2560,
+            80
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 409600,
+          "byteOffset": 29112320
+        },
+        {
+          "name": "transformer.h.18.mlp.fc1.bias",
+          "shape": [
+            10240
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 20480,
+          "byteOffset": 29521920
+        }
+      ],
+      "md5sum": "2395a58abcd6f0ec652f1a5f553df346"
+    },
+    {
+      "dataPath": "params_shard_21.bin",
+      "format": "raw-shard",
+      "nbytes": 29521920,
+      "records": [
+        {
+          "name": "transformer.h.18.mlp.fc1.q_weight",
+          "shape": [
+            10240,
+            320
+          ],
+          "dtype": "uint32",
+          "format": "f32-to-bf16",
+          "nbytes": 13107200,
+          "byteOffset": 0
+        },
+        {
+          "name": "transformer.h.18.mlp.fc1.q_scale",
+          "shape": [
+            10240,
+            80
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 1638400,
+          "byteOffset": 13107200
+        },
+        {
+          "name": "transformer.h.18.mlp.fc2.bias",
+          "shape": [
+            2560
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 5120,
+          "byteOffset": 14745600
+        },
+        {
+          "name": "transformer.h.18.mlp.fc2.q_weight",
+          "shape": [
+            2560,
+            1280
+          ],
+          "dtype": "uint32",
+          "format": "f32-to-bf16",
+          "nbytes": 13107200,
+          "byteOffset": 14750720
+        },
+        {
+          "name": "transformer.h.18.mlp.fc2.q_scale",
+          "shape": [
+            2560,
+            320
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 1638400,
+          "byteOffset": 27857920
+        },
+        {
+          "name": "transformer.h.19.ln.bias",
+          "shape": [
+            2560
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 5120,
+          "byteOffset": 29496320
+        },
+        {
+          "name": "transformer.h.19.ln.weight",
+          "shape": [
+            2560
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 5120,
+          "byteOffset": 29501440
+        },
+        {
+          "name": "transformer.h.19.mixer.Wqkv.bias",
+          "shape": [
+            7680
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 15360,
+          "byteOffset": 29506560
+        }
+      ],
+      "md5sum": "adbde88dd3b9051f798aab4005498395"
+    },
+    {
+      "dataPath": "params_shard_22.bin",
+      "format": "raw-shard",
+      "nbytes": 29521920,
+      "records": [
+        {
+          "name": "transformer.h.19.mixer.Wqkv.q_weight",
+          "shape": [
+            7680,
+            320
+          ],
+          "dtype": "uint32",
+          "format": "f32-to-bf16",
+          "nbytes": 9830400,
+          "byteOffset": 0
+        },
+        {
+          "name": "transformer.h.19.mixer.Wqkv.q_scale",
+          "shape": [
+            7680,
+            80
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 1228800,
+          "byteOffset": 9830400
+        },
+        {
+          "name": "transformer.h.19.mixer.out_proj.bias",
+          "shape": [
+            2560
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 5120,
+          "byteOffset": 11059200
+        },
+        {
+          "name": "transformer.h.19.mixer.out_proj.q_weight",
+          "shape": [
+            2560,
+            320
+          ],
+          "dtype": "uint32",
+          "format": "f32-to-bf16",
+          "nbytes": 3276800,
+          "byteOffset": 11064320
+        },
+        {
+          "name": "transformer.h.19.mixer.out_proj.q_scale",
+          "shape": [
+            2560,
+            80
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 409600,
+          "byteOffset": 14341120
+        },
+        {
+          "name": "transformer.h.19.mlp.fc1.bias",
+          "shape": [
+            10240
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 20480,
+          "byteOffset": 14750720
+        },
+        {
+          "name": "transformer.h.19.mlp.fc1.q_weight",
+          "shape": [
+            10240,
+            320
+          ],
+          "dtype": "uint32",
+          "format": "f32-to-bf16",
+          "nbytes": 13107200,
+          "byteOffset": 14771200
+        },
+        {
+          "name": "transformer.h.19.mlp.fc1.q_scale",
+          "shape": [
+            10240,
+            80
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 1638400,
+          "byteOffset": 27878400
+        },
+        {
+          "name": "transformer.h.19.mlp.fc2.bias",
+          "shape": [
+            2560
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 5120,
+          "byteOffset": 29516800
+        }
+      ],
+      "md5sum": "6d1be92d24418592d686ddb53a3b6cbf"
+    },
+    {
+      "dataPath": "params_shard_23.bin",
+      "format": "raw-shard",
+      "nbytes": 29542400,
+      "records": [
+        {
+          "name": "transformer.h.19.mlp.fc2.q_weight",
+          "shape": [
+            2560,
+            1280
+          ],
+          "dtype": "uint32",
+          "format": "f32-to-bf16",
+          "nbytes": 13107200,
+          "byteOffset": 0
+        },
+        {
+          "name": "transformer.h.19.mlp.fc2.q_scale",
+          "shape": [
+            2560,
+            320
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 1638400,
+          "byteOffset": 13107200
+        },
+        {
+          "name": "transformer.h.2.ln.bias",
+          "shape": [
+            2560
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 5120,
+          "byteOffset": 14745600
+        },
+        {
+          "name": "transformer.h.2.ln.weight",
+          "shape": [
+            2560
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 5120,
+          "byteOffset": 14750720
+        },
+        {
+          "name": "transformer.h.2.mixer.Wqkv.bias",
+          "shape": [
+            7680
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 15360,
+          "byteOffset": 14755840
+        },
+        {
+          "name": "transformer.h.2.mixer.Wqkv.q_weight",
+          "shape": [
+            7680,
+            320
+          ],
+          "dtype": "uint32",
+          "format": "f32-to-bf16",
+          "nbytes": 9830400,
+          "byteOffset": 14771200
+        },
+        {
+          "name": "transformer.h.2.mixer.Wqkv.q_scale",
+          "shape": [
+            7680,
+            80
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 1228800,
+          "byteOffset": 24601600
+        },
+        {
+          "name": "transformer.h.2.mixer.out_proj.bias",
+          "shape": [
+            2560
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 5120,
+          "byteOffset": 25830400
+        },
+        {
+          "name": "transformer.h.2.mixer.out_proj.q_weight",
+          "shape": [
+            2560,
+            320
+          ],
+          "dtype": "uint32",
+          "format": "f32-to-bf16",
+          "nbytes": 3276800,
+          "byteOffset": 25835520
+        },
+        {
+          "name": "transformer.h.2.mixer.out_proj.q_scale",
+          "shape": [
+            2560,
+            80
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 409600,
+          "byteOffset": 29112320
+        },
+        {
+          "name": "transformer.h.2.mlp.fc1.bias",
+          "shape": [
+            10240
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 20480,
+          "byteOffset": 29521920
+        }
+      ],
+      "md5sum": "856fb565ce44c4a15d5931b8e73ba5c7"
+    },
+    {
+      "dataPath": "params_shard_24.bin",
+      "format": "raw-shard",
+      "nbytes": 29521920,
+      "records": [
+        {
+          "name": "transformer.h.2.mlp.fc1.q_weight",
+          "shape": [
+            10240,
+            320
+          ],
+          "dtype": "uint32",
+          "format": "f32-to-bf16",
+          "nbytes": 13107200,
+          "byteOffset": 0
+        },
+        {
+          "name": "transformer.h.2.mlp.fc1.q_scale",
+          "shape": [
+            10240,
+            80
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 1638400,
+          "byteOffset": 13107200
+        },
+        {
+          "name": "transformer.h.2.mlp.fc2.bias",
+          "shape": [
+            2560
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 5120,
+          "byteOffset": 14745600
+        },
+        {
+          "name": "transformer.h.2.mlp.fc2.q_weight",
+          "shape": [
+            2560,
+            1280
+          ],
+          "dtype": "uint32",
+          "format": "f32-to-bf16",
+          "nbytes": 13107200,
+          "byteOffset": 14750720
+        },
+        {
+          "name": "transformer.h.2.mlp.fc2.q_scale",
+          "shape": [
+            2560,
+            320
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 1638400,
+          "byteOffset": 27857920
+        },
+        {
+          "name": "transformer.h.20.ln.bias",
+          "shape": [
+            2560
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 5120,
+          "byteOffset": 29496320
+        },
+        {
+          "name": "transformer.h.20.ln.weight",
+          "shape": [
+            2560
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 5120,
+          "byteOffset": 29501440
+        },
+        {
+          "name": "transformer.h.20.mixer.Wqkv.bias",
+          "shape": [
+            7680
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 15360,
+          "byteOffset": 29506560
+        }
+      ],
+      "md5sum": "669576b1e2b1df4dbe1ed2b3fb7644be"
+    },
+    {
+      "dataPath": "params_shard_25.bin",
+      "format": "raw-shard",
+      "nbytes": 29521920,
+      "records": [
+        {
+          "name": "transformer.h.20.mixer.Wqkv.q_weight",
+          "shape": [
+            7680,
+            320
+          ],
+          "dtype": "uint32",
+          "format": "f32-to-bf16",
+          "nbytes": 9830400,
+          "byteOffset": 0
+        },
+        {
+          "name": "transformer.h.20.mixer.Wqkv.q_scale",
+          "shape": [
+            7680,
+            80
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 1228800,
+          "byteOffset": 9830400
+        },
+        {
+          "name": "transformer.h.20.mixer.out_proj.bias",
+          "shape": [
+            2560
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 5120,
+          "byteOffset": 11059200
+        },
+        {
+          "name": "transformer.h.20.mixer.out_proj.q_weight",
+          "shape": [
+            2560,
+            320
+          ],
+          "dtype": "uint32",
+          "format": "f32-to-bf16",
+          "nbytes": 3276800,
+          "byteOffset": 11064320
+        },
+        {
+          "name": "transformer.h.20.mixer.out_proj.q_scale",
+          "shape": [
+            2560,
+            80
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 409600,
+          "byteOffset": 14341120
+        },
+        {
+          "name": "transformer.h.20.mlp.fc1.bias",
+          "shape": [
+            10240
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 20480,
+          "byteOffset": 14750720
+        },
+        {
+          "name": "transformer.h.20.mlp.fc1.q_weight",
+          "shape": [
+            10240,
+            320
+          ],
+          "dtype": "uint32",
+          "format": "f32-to-bf16",
+          "nbytes": 13107200,
+          "byteOffset": 14771200
+        },
+        {
+          "name": "transformer.h.20.mlp.fc1.q_scale",
+          "shape": [
+            10240,
+            80
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 1638400,
+          "byteOffset": 27878400
+        },
+        {
+          "name": "transformer.h.20.mlp.fc2.bias",
+          "shape": [
+            2560
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 5120,
+          "byteOffset": 29516800
+        }
+      ],
+      "md5sum": "c474a36ba86b8871732b38a1fc648987"
+    },
+    {
+      "dataPath": "params_shard_26.bin",
+      "format": "raw-shard",
+      "nbytes": 29542400,
+      "records": [
+        {
+          "name": "transformer.h.20.mlp.fc2.q_weight",
+          "shape": [
+            2560,
+            1280
+          ],
+          "dtype": "uint32",
+          "format": "f32-to-bf16",
+          "nbytes": 13107200,
+          "byteOffset": 0
+        },
+        {
+          "name": "transformer.h.20.mlp.fc2.q_scale",
+          "shape": [
+            2560,
+            320
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 1638400,
+          "byteOffset": 13107200
+        },
+        {
+          "name": "transformer.h.21.ln.bias",
+          "shape": [
+            2560
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 5120,
+          "byteOffset": 14745600
+        },
+        {
+          "name": "transformer.h.21.ln.weight",
+          "shape": [
+            2560
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 5120,
+          "byteOffset": 14750720
+        },
+        {
+          "name": "transformer.h.21.mixer.Wqkv.bias",
+          "shape": [
+            7680
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 15360,
+          "byteOffset": 14755840
+        },
+        {
+          "name": "transformer.h.21.mixer.Wqkv.q_weight",
+          "shape": [
+            7680,
+            320
+          ],
+          "dtype": "uint32",
+          "format": "f32-to-bf16",
+          "nbytes": 9830400,
+          "byteOffset": 14771200
+        },
+        {
+          "name": "transformer.h.21.mixer.Wqkv.q_scale",
+          "shape": [
+            7680,
+            80
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 1228800,
+          "byteOffset": 24601600
+        },
+        {
+          "name": "transformer.h.21.mixer.out_proj.bias",
+          "shape": [
+            2560
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 5120,
+          "byteOffset": 25830400
+        },
+        {
+          "name": "transformer.h.21.mixer.out_proj.q_weight",
+          "shape": [
+            2560,
+            320
+          ],
+          "dtype": "uint32",
+          "format": "f32-to-bf16",
+          "nbytes": 3276800,
+          "byteOffset": 25835520
+        },
+        {
+          "name": "transformer.h.21.mixer.out_proj.q_scale",
+          "shape": [
+            2560,
+            80
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 409600,
+          "byteOffset": 29112320
+        },
+        {
+          "name": "transformer.h.21.mlp.fc1.bias",
+          "shape": [
+            10240
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 20480,
+          "byteOffset": 29521920
+        }
+      ],
+      "md5sum": "e295a541d6864bf9a210801dcbe21e6c"
+    },
+    {
+      "dataPath": "params_shard_27.bin",
+      "format": "raw-shard",
+      "nbytes": 29521920,
+      "records": [
+        {
+          "name": "transformer.h.21.mlp.fc1.q_weight",
+          "shape": [
+            10240,
+            320
+          ],
+          "dtype": "uint32",
+          "format": "f32-to-bf16",
+          "nbytes": 13107200,
+          "byteOffset": 0
+        },
+        {
+          "name": "transformer.h.21.mlp.fc1.q_scale",
+          "shape": [
+            10240,
+            80
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 1638400,
+          "byteOffset": 13107200
+        },
+        {
+          "name": "transformer.h.21.mlp.fc2.bias",
+          "shape": [
+            2560
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 5120,
+          "byteOffset": 14745600
+        },
+        {
+          "name": "transformer.h.21.mlp.fc2.q_weight",
+          "shape": [
+            2560,
+            1280
+          ],
+          "dtype": "uint32",
+          "format": "f32-to-bf16",
+          "nbytes": 13107200,
+          "byteOffset": 14750720
+        },
+        {
+          "name": "transformer.h.21.mlp.fc2.q_scale",
+          "shape": [
+            2560,
+            320
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 1638400,
+          "byteOffset": 27857920
+        },
+        {
+          "name": "transformer.h.22.ln.bias",
+          "shape": [
+            2560
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 5120,
+          "byteOffset": 29496320
+        },
+        {
+          "name": "transformer.h.22.ln.weight",
+          "shape": [
+            2560
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 5120,
+          "byteOffset": 29501440
+        },
+        {
+          "name": "transformer.h.22.mixer.Wqkv.bias",
+          "shape": [
+            7680
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 15360,
+          "byteOffset": 29506560
+        }
+      ],
+      "md5sum": "79d749b34f932c26632548426bc4c128"
+    },
+    {
+      "dataPath": "params_shard_28.bin",
+      "format": "raw-shard",
+      "nbytes": 29521920,
+      "records": [
+        {
+          "name": "transformer.h.22.mixer.Wqkv.q_weight",
+          "shape": [
+            7680,
+            320
+          ],
+          "dtype": "uint32",
+          "format": "f32-to-bf16",
+          "nbytes": 9830400,
+          "byteOffset": 0
+        },
+        {
+          "name": "transformer.h.22.mixer.Wqkv.q_scale",
+          "shape": [
+            7680,
+            80
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 1228800,
+          "byteOffset": 9830400
+        },
+        {
+          "name": "transformer.h.22.mixer.out_proj.bias",
+          "shape": [
+            2560
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 5120,
+          "byteOffset": 11059200
+        },
+        {
+          "name": "transformer.h.22.mixer.out_proj.q_weight",
+          "shape": [
+            2560,
+            320
+          ],
+          "dtype": "uint32",
+          "format": "f32-to-bf16",
+          "nbytes": 3276800,
+          "byteOffset": 11064320
+        },
+        {
+          "name": "transformer.h.22.mixer.out_proj.q_scale",
+          "shape": [
+            2560,
+            80
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 409600,
+          "byteOffset": 14341120
+        },
+        {
+          "name": "transformer.h.22.mlp.fc1.bias",
+          "shape": [
+            10240
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 20480,
+          "byteOffset": 14750720
+        },
+        {
+          "name": "transformer.h.22.mlp.fc1.q_weight",
+          "shape": [
+            10240,
+            320
+          ],
+          "dtype": "uint32",
+          "format": "f32-to-bf16",
+          "nbytes": 13107200,
+          "byteOffset": 14771200
+        },
+        {
+          "name": "transformer.h.22.mlp.fc1.q_scale",
+          "shape": [
+            10240,
+            80
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 1638400,
+          "byteOffset": 27878400
+        },
+        {
+          "name": "transformer.h.22.mlp.fc2.bias",
+          "shape": [
+            2560
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 5120,
+          "byteOffset": 29516800
+        }
+      ],
+      "md5sum": "0927d0d96a2b90cd338e5ced3632ad53"
+    },
+    {
+      "dataPath": "params_shard_29.bin",
+      "format": "raw-shard",
+      "nbytes": 29542400,
+      "records": [
+        {
+          "name": "transformer.h.22.mlp.fc2.q_weight",
+          "shape": [
+            2560,
+            1280
+          ],
+          "dtype": "uint32",
+          "format": "f32-to-bf16",
+          "nbytes": 13107200,
+          "byteOffset": 0
+        },
+        {
+          "name": "transformer.h.22.mlp.fc2.q_scale",
+          "shape": [
+            2560,
+            320
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 1638400,
+          "byteOffset": 13107200
+        },
+        {
+          "name": "transformer.h.23.ln.bias",
+          "shape": [
+            2560
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 5120,
+          "byteOffset": 14745600
+        },
+        {
+          "name": "transformer.h.23.ln.weight",
+          "shape": [
+            2560
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 5120,
+          "byteOffset": 14750720
+        },
+        {
+          "name": "transformer.h.23.mixer.Wqkv.bias",
+          "shape": [
+            7680
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 15360,
+          "byteOffset": 14755840
+        },
+        {
+          "name": "transformer.h.23.mixer.Wqkv.q_weight",
+          "shape": [
+            7680,
+            320
+          ],
+          "dtype": "uint32",
+          "format": "f32-to-bf16",
+          "nbytes": 9830400,
+          "byteOffset": 14771200
+        },
+        {
+          "name": "transformer.h.23.mixer.Wqkv.q_scale",
+          "shape": [
+            7680,
+            80
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 1228800,
+          "byteOffset": 24601600
+        },
+        {
+          "name": "transformer.h.23.mixer.out_proj.bias",
+          "shape": [
+            2560
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 5120,
+          "byteOffset": 25830400
+        },
+        {
+          "name": "transformer.h.23.mixer.out_proj.q_weight",
+          "shape": [
+            2560,
+            320
+          ],
+          "dtype": "uint32",
+          "format": "f32-to-bf16",
+          "nbytes": 3276800,
+          "byteOffset": 25835520
+        },
+        {
+          "name": "transformer.h.23.mixer.out_proj.q_scale",
+          "shape": [
+            2560,
+            80
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 409600,
+          "byteOffset": 29112320
+        },
+        {
+          "name": "transformer.h.23.mlp.fc1.bias",
+          "shape": [
+            10240
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 20480,
+          "byteOffset": 29521920
+        }
+      ],
+      "md5sum": "6afe476b36c0e02eeac46d216ea26ad2"
+    },
+    {
+      "dataPath": "params_shard_30.bin",
+      "format": "raw-shard",
+      "nbytes": 29521920,
+      "records": [
+        {
+          "name": "transformer.h.23.mlp.fc1.q_weight",
+          "shape": [
+            10240,
+            320
+          ],
+          "dtype": "uint32",
+          "format": "f32-to-bf16",
+          "nbytes": 13107200,
+          "byteOffset": 0
+        },
+        {
+          "name": "transformer.h.23.mlp.fc1.q_scale",
+          "shape": [
+            10240,
+            80
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 1638400,
+          "byteOffset": 13107200
+        },
+        {
+          "name": "transformer.h.23.mlp.fc2.bias",
+          "shape": [
+            2560
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 5120,
+          "byteOffset": 14745600
+        },
+        {
+          "name": "transformer.h.23.mlp.fc2.q_weight",
+          "shape": [
+            2560,
+            1280
+          ],
+          "dtype": "uint32",
+          "format": "f32-to-bf16",
+          "nbytes": 13107200,
+          "byteOffset": 14750720
+        },
+        {
+          "name": "transformer.h.23.mlp.fc2.q_scale",
+          "shape": [
+            2560,
+            320
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 1638400,
+          "byteOffset": 27857920
+        },
+        {
+          "name": "transformer.h.24.ln.bias",
+          "shape": [
+            2560
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 5120,
+          "byteOffset": 29496320
+        },
+        {
+          "name": "transformer.h.24.ln.weight",
+          "shape": [
+            2560
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 5120,
+          "byteOffset": 29501440
+        },
+        {
+          "name": "transformer.h.24.mixer.Wqkv.bias",
+          "shape": [
+            7680
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 15360,
+          "byteOffset": 29506560
+        }
+      ],
+      "md5sum": "fe133cce4f96c88290199da77ba5204a"
+    },
+    {
+      "dataPath": "params_shard_31.bin",
+      "format": "raw-shard",
+      "nbytes": 29521920,
+      "records": [
+        {
+          "name": "transformer.h.24.mixer.Wqkv.q_weight",
+          "shape": [
+            7680,
+            320
+          ],
+          "dtype": "uint32",
+          "format": "f32-to-bf16",
+          "nbytes": 9830400,
+          "byteOffset": 0
+        },
+        {
+          "name": "transformer.h.24.mixer.Wqkv.q_scale",
+          "shape": [
+            7680,
+            80
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 1228800,
+          "byteOffset": 9830400
+        },
+        {
+          "name": "transformer.h.24.mixer.out_proj.bias",
+          "shape": [
+            2560
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 5120,
+          "byteOffset": 11059200
+        },
+        {
+          "name": "transformer.h.24.mixer.out_proj.q_weight",
+          "shape": [
+            2560,
+            320
+          ],
+          "dtype": "uint32",
+          "format": "f32-to-bf16",
+          "nbytes": 3276800,
+          "byteOffset": 11064320
+        },
+        {
+          "name": "transformer.h.24.mixer.out_proj.q_scale",
+          "shape": [
+            2560,
+            80
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 409600,
+          "byteOffset": 14341120
+        },
+        {
+          "name": "transformer.h.24.mlp.fc1.bias",
+          "shape": [
+            10240
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 20480,
+          "byteOffset": 14750720
+        },
+        {
+          "name": "transformer.h.24.mlp.fc1.q_weight",
+          "shape": [
+            10240,
+            320
+          ],
+          "dtype": "uint32",
+          "format": "f32-to-bf16",
+          "nbytes": 13107200,
+          "byteOffset": 14771200
+        },
+        {
+          "name": "transformer.h.24.mlp.fc1.q_scale",
+          "shape": [
+            10240,
+            80
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 1638400,
+          "byteOffset": 27878400
+        },
+        {
+          "name": "transformer.h.24.mlp.fc2.bias",
+          "shape": [
+            2560
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 5120,
+          "byteOffset": 29516800
+        }
+      ],
+      "md5sum": "3338859be8b3a1af1cab057cfdcf578b"
+    },
+    {
+      "dataPath": "params_shard_32.bin",
+      "format": "raw-shard",
+      "nbytes": 29542400,
+      "records": [
+        {
+          "name": "transformer.h.24.mlp.fc2.q_weight",
+          "shape": [
+            2560,
+            1280
+          ],
+          "dtype": "uint32",
+          "format": "f32-to-bf16",
+          "nbytes": 13107200,
+          "byteOffset": 0
+        },
+        {
+          "name": "transformer.h.24.mlp.fc2.q_scale",
+          "shape": [
+            2560,
+            320
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 1638400,
+          "byteOffset": 13107200
+        },
+        {
+          "name": "transformer.h.25.ln.bias",
+          "shape": [
+            2560
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 5120,
+          "byteOffset": 14745600
+        },
+        {
+          "name": "transformer.h.25.ln.weight",
+          "shape": [
+            2560
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 5120,
+          "byteOffset": 14750720
+        },
+        {
+          "name": "transformer.h.25.mixer.Wqkv.bias",
+          "shape": [
+            7680
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 15360,
+          "byteOffset": 14755840
+        },
+        {
+          "name": "transformer.h.25.mixer.Wqkv.q_weight",
+          "shape": [
+            7680,
+            320
+          ],
+          "dtype": "uint32",
+          "format": "f32-to-bf16",
+          "nbytes": 9830400,
+          "byteOffset": 14771200
+        },
+        {
+          "name": "transformer.h.25.mixer.Wqkv.q_scale",
+          "shape": [
+            7680,
+            80
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 1228800,
+          "byteOffset": 24601600
+        },
+        {
+          "name": "transformer.h.25.mixer.out_proj.bias",
+          "shape": [
+            2560
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 5120,
+          "byteOffset": 25830400
+        },
+        {
+          "name": "transformer.h.25.mixer.out_proj.q_weight",
+          "shape": [
+            2560,
+            320
+          ],
+          "dtype": "uint32",
+          "format": "f32-to-bf16",
+          "nbytes": 3276800,
+          "byteOffset": 25835520
+        },
+        {
+          "name": "transformer.h.25.mixer.out_proj.q_scale",
+          "shape": [
+            2560,
+            80
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 409600,
+          "byteOffset": 29112320
+        },
+        {
+          "name": "transformer.h.25.mlp.fc1.bias",
+          "shape": [
+            10240
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 20480,
+          "byteOffset": 29521920
+        }
+      ],
+      "md5sum": "2eac133a2d3ea404060ea98eaaef3c09"
+    },
+    {
+      "dataPath": "params_shard_33.bin",
+      "format": "raw-shard",
+      "nbytes": 29521920,
+      "records": [
+        {
+          "name": "transformer.h.25.mlp.fc1.q_weight",
+          "shape": [
+            10240,
+            320
+          ],
+          "dtype": "uint32",
+          "format": "f32-to-bf16",
+          "nbytes": 13107200,
+          "byteOffset": 0
+        },
+        {
+          "name": "transformer.h.25.mlp.fc1.q_scale",
+          "shape": [
+            10240,
+            80
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 1638400,
+          "byteOffset": 13107200
+        },
+        {
+          "name": "transformer.h.25.mlp.fc2.bias",
+          "shape": [
+            2560
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 5120,
+          "byteOffset": 14745600
+        },
+        {
+          "name": "transformer.h.25.mlp.fc2.q_weight",
+          "shape": [
+            2560,
+            1280
+          ],
+          "dtype": "uint32",
+          "format": "f32-to-bf16",
+          "nbytes": 13107200,
+          "byteOffset": 14750720
+        },
+        {
+          "name": "transformer.h.25.mlp.fc2.q_scale",
+          "shape": [
+            2560,
+            320
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 1638400,
+          "byteOffset": 27857920
+        },
+        {
+          "name": "transformer.h.26.ln.bias",
+          "shape": [
+            2560
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 5120,
+          "byteOffset": 29496320
+        },
+        {
+          "name": "transformer.h.26.ln.weight",
+          "shape": [
+            2560
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 5120,
+          "byteOffset": 29501440
+        },
+        {
+          "name": "transformer.h.26.mixer.Wqkv.bias",
+          "shape": [
+            7680
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 15360,
+          "byteOffset": 29506560
+        }
+      ],
+      "md5sum": "39c8f39751963d321df65d38ebb90bab"
+    },
+    {
+      "dataPath": "params_shard_34.bin",
+      "format": "raw-shard",
+      "nbytes": 29521920,
+      "records": [
+        {
+          "name": "transformer.h.26.mixer.Wqkv.q_weight",
+          "shape": [
+            7680,
+            320
+          ],
+          "dtype": "uint32",
+          "format": "f32-to-bf16",
+          "nbytes": 9830400,
+          "byteOffset": 0
+        },
+        {
+          "name": "transformer.h.26.mixer.Wqkv.q_scale",
+          "shape": [
+            7680,
+            80
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 1228800,
+          "byteOffset": 9830400
+        },
+        {
+          "name": "transformer.h.26.mixer.out_proj.bias",
+          "shape": [
+            2560
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 5120,
+          "byteOffset": 11059200
+        },
+        {
+          "name": "transformer.h.26.mixer.out_proj.q_weight",
+          "shape": [
+            2560,
+            320
+          ],
+          "dtype": "uint32",
+          "format": "f32-to-bf16",
+          "nbytes": 3276800,
+          "byteOffset": 11064320
+        },
+        {
+          "name": "transformer.h.26.mixer.out_proj.q_scale",
+          "shape": [
+            2560,
+            80
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 409600,
+          "byteOffset": 14341120
+        },
+        {
+          "name": "transformer.h.26.mlp.fc1.bias",
+          "shape": [
+            10240
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 20480,
+          "byteOffset": 14750720
+        },
+        {
+          "name": "transformer.h.26.mlp.fc1.q_weight",
+          "shape": [
+            10240,
+            320
+          ],
+          "dtype": "uint32",
+          "format": "f32-to-bf16",
+          "nbytes": 13107200,
+          "byteOffset": 14771200
+        },
+        {
+          "name": "transformer.h.26.mlp.fc1.q_scale",
+          "shape": [
+            10240,
+            80
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 1638400,
+          "byteOffset": 27878400
+        },
+        {
+          "name": "transformer.h.26.mlp.fc2.bias",
+          "shape": [
+            2560
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 5120,
+          "byteOffset": 29516800
+        }
+      ],
+      "md5sum": "50f44d0480a0b9aa873dfee2898568e4"
+    },
+    {
+      "dataPath": "params_shard_35.bin",
+      "format": "raw-shard",
+      "nbytes": 29542400,
+      "records": [
+        {
+          "name": "transformer.h.26.mlp.fc2.q_weight",
+          "shape": [
+            2560,
+            1280
+          ],
+          "dtype": "uint32",
+          "format": "f32-to-bf16",
+          "nbytes": 13107200,
+          "byteOffset": 0
+        },
+        {
+          "name": "transformer.h.26.mlp.fc2.q_scale",
+          "shape": [
+            2560,
+            320
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 1638400,
+          "byteOffset": 13107200
+        },
+        {
+          "name": "transformer.h.27.ln.bias",
+          "shape": [
+            2560
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 5120,
+          "byteOffset": 14745600
+        },
+        {
+          "name": "transformer.h.27.ln.weight",
+          "shape": [
+            2560
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 5120,
+          "byteOffset": 14750720
+        },
+        {
+          "name": "transformer.h.27.mixer.Wqkv.bias",
+          "shape": [
+            7680
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 15360,
+          "byteOffset": 14755840
+        },
+        {
+          "name": "transformer.h.27.mixer.Wqkv.q_weight",
+          "shape": [
+            7680,
+            320
+          ],
+          "dtype": "uint32",
+          "format": "f32-to-bf16",
+          "nbytes": 9830400,
+          "byteOffset": 14771200
+        },
+        {
+          "name": "transformer.h.27.mixer.Wqkv.q_scale",
+          "shape": [
+            7680,
+            80
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 1228800,
+          "byteOffset": 24601600
+        },
+        {
+          "name": "transformer.h.27.mixer.out_proj.bias",
+          "shape": [
+            2560
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 5120,
+          "byteOffset": 25830400
+        },
+        {
+          "name": "transformer.h.27.mixer.out_proj.q_weight",
+          "shape": [
+            2560,
+            320
+          ],
+          "dtype": "uint32",
+          "format": "f32-to-bf16",
+          "nbytes": 3276800,
+          "byteOffset": 25835520
+        },
+        {
+          "name": "transformer.h.27.mixer.out_proj.q_scale",
+          "shape": [
+            2560,
+            80
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 409600,
+          "byteOffset": 29112320
+        },
+        {
+          "name": "transformer.h.27.mlp.fc1.bias",
+          "shape": [
+            10240
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 20480,
+          "byteOffset": 29521920
+        }
+      ],
+      "md5sum": "32c4f9e63d7b4ce1984bcfbe7aef1cc6"
+    },
+    {
+      "dataPath": "params_shard_36.bin",
+      "format": "raw-shard",
+      "nbytes": 29521920,
+      "records": [
+        {
+          "name": "transformer.h.27.mlp.fc1.q_weight",
+          "shape": [
+            10240,
+            320
+          ],
+          "dtype": "uint32",
+          "format": "f32-to-bf16",
+          "nbytes": 13107200,
+          "byteOffset": 0
+        },
+        {
+          "name": "transformer.h.27.mlp.fc1.q_scale",
+          "shape": [
+            10240,
+            80
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 1638400,
+          "byteOffset": 13107200
+        },
+        {
+          "name": "transformer.h.27.mlp.fc2.bias",
+          "shape": [
+            2560
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 5120,
+          "byteOffset": 14745600
+        },
+        {
+          "name": "transformer.h.27.mlp.fc2.q_weight",
+          "shape": [
+            2560,
+            1280
+          ],
+          "dtype": "uint32",
+          "format": "f32-to-bf16",
+          "nbytes": 13107200,
+          "byteOffset": 14750720
+        },
+        {
+          "name": "transformer.h.27.mlp.fc2.q_scale",
+          "shape": [
+            2560,
+            320
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 1638400,
+          "byteOffset": 27857920
+        },
+        {
+          "name": "transformer.h.28.ln.bias",
+          "shape": [
+            2560
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 5120,
+          "byteOffset": 29496320
+        },
+        {
+          "name": "transformer.h.28.ln.weight",
+          "shape": [
+            2560
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 5120,
+          "byteOffset": 29501440
+        },
+        {
+          "name": "transformer.h.28.mixer.Wqkv.bias",
+          "shape": [
+            7680
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 15360,
+          "byteOffset": 29506560
+        }
+      ],
+      "md5sum": "06adeb4bcf304d78b58c2813fec011b7"
+    },
+    {
+      "dataPath": "params_shard_37.bin",
+      "format": "raw-shard",
+      "nbytes": 29521920,
+      "records": [
+        {
+          "name": "transformer.h.28.mixer.Wqkv.q_weight",
+          "shape": [
+            7680,
+            320
+          ],
+          "dtype": "uint32",
+          "format": "f32-to-bf16",
+          "nbytes": 9830400,
+          "byteOffset": 0
+        },
+        {
+          "name": "transformer.h.28.mixer.Wqkv.q_scale",
+          "shape": [
+            7680,
+            80
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 1228800,
+          "byteOffset": 9830400
+        },
+        {
+          "name": "transformer.h.28.mixer.out_proj.bias",
+          "shape": [
+            2560
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 5120,
+          "byteOffset": 11059200
+        },
+        {
+          "name": "transformer.h.28.mixer.out_proj.q_weight",
+          "shape": [
+            2560,
+            320
+          ],
+          "dtype": "uint32",
+          "format": "f32-to-bf16",
+          "nbytes": 3276800,
+          "byteOffset": 11064320
+        },
+        {
+          "name": "transformer.h.28.mixer.out_proj.q_scale",
+          "shape": [
+            2560,
+            80
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 409600,
+          "byteOffset": 14341120
+        },
+        {
+          "name": "transformer.h.28.mlp.fc1.bias",
+          "shape": [
+            10240
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 20480,
+          "byteOffset": 14750720
+        },
+        {
+          "name": "transformer.h.28.mlp.fc1.q_weight",
+          "shape": [
+            10240,
+            320
+          ],
+          "dtype": "uint32",
+          "format": "f32-to-bf16",
+          "nbytes": 13107200,
+          "byteOffset": 14771200
+        },
+        {
+          "name": "transformer.h.28.mlp.fc1.q_scale",
+          "shape": [
+            10240,
+            80
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 1638400,
+          "byteOffset": 27878400
+        },
+        {
+          "name": "transformer.h.28.mlp.fc2.bias",
+          "shape": [
+            2560
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 5120,
+          "byteOffset": 29516800
+        }
+      ],
+      "md5sum": "c06b14865f9e1ac3813937de8839ded6"
+    },
+    {
+      "dataPath": "params_shard_38.bin",
+      "format": "raw-shard",
+      "nbytes": 29542400,
+      "records": [
+        {
+          "name": "transformer.h.28.mlp.fc2.q_weight",
+          "shape": [
+            2560,
+            1280
+          ],
+          "dtype": "uint32",
+          "format": "f32-to-bf16",
+          "nbytes": 13107200,
+          "byteOffset": 0
+        },
+        {
+          "name": "transformer.h.28.mlp.fc2.q_scale",
+          "shape": [
+            2560,
+            320
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 1638400,
+          "byteOffset": 13107200
+        },
+        {
+          "name": "transformer.h.29.ln.bias",
+          "shape": [
+            2560
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 5120,
+          "byteOffset": 14745600
+        },
+        {
+          "name": "transformer.h.29.ln.weight",
+          "shape": [
+            2560
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 5120,
+          "byteOffset": 14750720
+        },
+        {
+          "name": "transformer.h.29.mixer.Wqkv.bias",
+          "shape": [
+            7680
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 15360,
+          "byteOffset": 14755840
+        },
+        {
+          "name": "transformer.h.29.mixer.Wqkv.q_weight",
+          "shape": [
+            7680,
+            320
+          ],
+          "dtype": "uint32",
+          "format": "f32-to-bf16",
+          "nbytes": 9830400,
+          "byteOffset": 14771200
+        },
+        {
+          "name": "transformer.h.29.mixer.Wqkv.q_scale",
+          "shape": [
+            7680,
+            80
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 1228800,
+          "byteOffset": 24601600
+        },
+        {
+          "name": "transformer.h.29.mixer.out_proj.bias",
+          "shape": [
+            2560
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 5120,
+          "byteOffset": 25830400
+        },
+        {
+          "name": "transformer.h.29.mixer.out_proj.q_weight",
+          "shape": [
+            2560,
+            320
+          ],
+          "dtype": "uint32",
+          "format": "f32-to-bf16",
+          "nbytes": 3276800,
+          "byteOffset": 25835520
+        },
+        {
+          "name": "transformer.h.29.mixer.out_proj.q_scale",
+          "shape": [
+            2560,
+            80
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 409600,
+          "byteOffset": 29112320
+        },
+        {
+          "name": "transformer.h.29.mlp.fc1.bias",
+          "shape": [
+            10240
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 20480,
+          "byteOffset": 29521920
+        }
+      ],
+      "md5sum": "7104e9e3b15f6f8928a1621245ac3ef3"
+    },
+    {
+      "dataPath": "params_shard_39.bin",
+      "format": "raw-shard",
+      "nbytes": 29521920,
+      "records": [
+        {
+          "name": "transformer.h.29.mlp.fc1.q_weight",
+          "shape": [
+            10240,
+            320
+          ],
+          "dtype": "uint32",
+          "format": "f32-to-bf16",
+          "nbytes": 13107200,
+          "byteOffset": 0
+        },
+        {
+          "name": "transformer.h.29.mlp.fc1.q_scale",
+          "shape": [
+            10240,
+            80
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 1638400,
+          "byteOffset": 13107200
+        },
+        {
+          "name": "transformer.h.29.mlp.fc2.bias",
+          "shape": [
+            2560
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 5120,
+          "byteOffset": 14745600
+        },
+        {
+          "name": "transformer.h.29.mlp.fc2.q_weight",
+          "shape": [
+            2560,
+            1280
+          ],
+          "dtype": "uint32",
+          "format": "f32-to-bf16",
+          "nbytes": 13107200,
+          "byteOffset": 14750720
+        },
+        {
+          "name": "transformer.h.29.mlp.fc2.q_scale",
+          "shape": [
+            2560,
+            320
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 1638400,
+          "byteOffset": 27857920
+        },
+        {
+          "name": "transformer.h.3.ln.bias",
+          "shape": [
+            2560
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 5120,
+          "byteOffset": 29496320
+        },
+        {
+          "name": "transformer.h.3.ln.weight",
+          "shape": [
+            2560
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 5120,
+          "byteOffset": 29501440
+        },
+        {
+          "name": "transformer.h.3.mixer.Wqkv.bias",
+          "shape": [
+            7680
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 15360,
+          "byteOffset": 29506560
+        }
+      ],
+      "md5sum": "b7b2b03d81a0ccf9d202f1221a487b99"
+    },
+    {
+      "dataPath": "params_shard_40.bin",
+      "format": "raw-shard",
+      "nbytes": 29521920,
+      "records": [
+        {
+          "name": "transformer.h.3.mixer.Wqkv.q_weight",
+          "shape": [
+            7680,
+            320
+          ],
+          "dtype": "uint32",
+          "format": "f32-to-bf16",
+          "nbytes": 9830400,
+          "byteOffset": 0
+        },
+        {
+          "name": "transformer.h.3.mixer.Wqkv.q_scale",
+          "shape": [
+            7680,
+            80
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 1228800,
+          "byteOffset": 9830400
+        },
+        {
+          "name": "transformer.h.3.mixer.out_proj.bias",
+          "shape": [
+            2560
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 5120,
+          "byteOffset": 11059200
+        },
+        {
+          "name": "transformer.h.3.mixer.out_proj.q_weight",
+          "shape": [
+            2560,
+            320
+          ],
+          "dtype": "uint32",
+          "format": "f32-to-bf16",
+          "nbytes": 3276800,
+          "byteOffset": 11064320
+        },
+        {
+          "name": "transformer.h.3.mixer.out_proj.q_scale",
+          "shape": [
+            2560,
+            80
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 409600,
+          "byteOffset": 14341120
+        },
+        {
+          "name": "transformer.h.3.mlp.fc1.bias",
+          "shape": [
+            10240
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 20480,
+          "byteOffset": 14750720
+        },
+        {
+          "name": "transformer.h.3.mlp.fc1.q_weight",
+          "shape": [
+            10240,
+            320
+          ],
+          "dtype": "uint32",
+          "format": "f32-to-bf16",
+          "nbytes": 13107200,
+          "byteOffset": 14771200
+        },
+        {
+          "name": "transformer.h.3.mlp.fc1.q_scale",
+          "shape": [
+            10240,
+            80
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 1638400,
+          "byteOffset": 27878400
+        },
+        {
+          "name": "transformer.h.3.mlp.fc2.bias",
+          "shape": [
+            2560
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 5120,
+          "byteOffset": 29516800
+        }
+      ],
+      "md5sum": "0578387d04cfba77d3f0428fd6d08b05"
+    },
+    {
+      "dataPath": "params_shard_41.bin",
+      "format": "raw-shard",
+      "nbytes": 29552640,
+      "records": [
+        {
+          "name": "transformer.h.3.mlp.fc2.q_weight",
+          "shape": [
+            2560,
+            1280
+          ],
+          "dtype": "uint32",
+          "format": "f32-to-bf16",
+          "nbytes": 13107200,
+          "byteOffset": 0
+        },
+        {
+          "name": "transformer.h.3.mlp.fc2.q_scale",
+          "shape": [
+            2560,
+            320
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 1638400,
+          "byteOffset": 13107200
+        },
+        {
+          "name": "transformer.h.30.ln.bias",
+          "shape": [
+            2560
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 5120,
+          "byteOffset": 14745600
+        },
+        {
+          "name": "transformer.h.30.ln.weight",
+          "shape": [
+            2560
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 5120,
+          "byteOffset": 14750720
+        },
+        {
+          "name": "transformer.h.4.ln.bias",
+          "shape": [
+            2560
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 5120,
+          "byteOffset": 14755840
+        },
+        {
+          "name": "transformer.h.4.ln.weight",
+          "shape": [
+            2560
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 5120,
+          "byteOffset": 14760960
+        },
+        {
+          "name": "transformer.h.4.mixer.Wqkv.bias",
+          "shape": [
+            7680
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 15360,
+          "byteOffset": 14766080
+        },
+        {
+          "name": "transformer.h.4.mixer.Wqkv.q_weight",
+          "shape": [
+            7680,
+            320
+          ],
+          "dtype": "uint32",
+          "format": "f32-to-bf16",
+          "nbytes": 9830400,
+          "byteOffset": 14781440
+        },
+        {
+          "name": "transformer.h.4.mixer.Wqkv.q_scale",
+          "shape": [
+            7680,
+            80
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 1228800,
+          "byteOffset": 24611840
+        },
+        {
+          "name": "transformer.h.4.mixer.out_proj.bias",
+          "shape": [
+            2560
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 5120,
+          "byteOffset": 25840640
+        },
+        {
+          "name": "transformer.h.4.mixer.out_proj.q_weight",
+          "shape": [
+            2560,
+            320
+          ],
+          "dtype": "uint32",
+          "format": "f32-to-bf16",
+          "nbytes": 3276800,
+          "byteOffset": 25845760
+        },
+        {
+          "name": "transformer.h.4.mixer.out_proj.q_scale",
+          "shape": [
+            2560,
+            80
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 409600,
+          "byteOffset": 29122560
+        },
+        {
+          "name": "transformer.h.4.mlp.fc1.bias",
+          "shape": [
+            10240
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 20480,
+          "byteOffset": 29532160
+        }
+      ],
+      "md5sum": "fac809ee7bceaa251a8a609d006566fd"
+    },
+    {
+      "dataPath": "params_shard_42.bin",
+      "format": "raw-shard",
+      "nbytes": 29521920,
+      "records": [
+        {
+          "name": "transformer.h.4.mlp.fc1.q_weight",
+          "shape": [
+            10240,
+            320
+          ],
+          "dtype": "uint32",
+          "format": "f32-to-bf16",
+          "nbytes": 13107200,
+          "byteOffset": 0
+        },
+        {
+          "name": "transformer.h.4.mlp.fc1.q_scale",
+          "shape": [
+            10240,
+            80
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 1638400,
+          "byteOffset": 13107200
+        },
+        {
+          "name": "transformer.h.4.mlp.fc2.bias",
+          "shape": [
+            2560
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 5120,
+          "byteOffset": 14745600
+        },
+        {
+          "name": "transformer.h.4.mlp.fc2.q_weight",
+          "shape": [
+            2560,
+            1280
+          ],
+          "dtype": "uint32",
+          "format": "f32-to-bf16",
+          "nbytes": 13107200,
+          "byteOffset": 14750720
+        },
+        {
+          "name": "transformer.h.4.mlp.fc2.q_scale",
+          "shape": [
+            2560,
+            320
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 1638400,
+          "byteOffset": 27857920
+        },
+        {
+          "name": "transformer.h.5.ln.bias",
+          "shape": [
+            2560
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 5120,
+          "byteOffset": 29496320
+        },
+        {
+          "name": "transformer.h.5.ln.weight",
+          "shape": [
+            2560
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 5120,
+          "byteOffset": 29501440
+        },
+        {
+          "name": "transformer.h.5.mixer.Wqkv.bias",
+          "shape": [
+            7680
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 15360,
+          "byteOffset": 29506560
+        }
+      ],
+      "md5sum": "56467de67caf47c1f0cf4c3dd2494ad0"
+    },
+    {
+      "dataPath": "params_shard_43.bin",
+      "format": "raw-shard",
+      "nbytes": 29521920,
+      "records": [
+        {
+          "name": "transformer.h.5.mixer.Wqkv.q_weight",
+          "shape": [
+            7680,
+            320
+          ],
+          "dtype": "uint32",
+          "format": "f32-to-bf16",
+          "nbytes": 9830400,
+          "byteOffset": 0
+        },
+        {
+          "name": "transformer.h.5.mixer.Wqkv.q_scale",
+          "shape": [
+            7680,
+            80
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 1228800,
+          "byteOffset": 9830400
+        },
+        {
+          "name": "transformer.h.5.mixer.out_proj.bias",
+          "shape": [
+            2560
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 5120,
+          "byteOffset": 11059200
+        },
+        {
+          "name": "transformer.h.5.mixer.out_proj.q_weight",
+          "shape": [
+            2560,
+            320
+          ],
+          "dtype": "uint32",
+          "format": "f32-to-bf16",
+          "nbytes": 3276800,
+          "byteOffset": 11064320
+        },
+        {
+          "name": "transformer.h.5.mixer.out_proj.q_scale",
+          "shape": [
+            2560,
+            80
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 409600,
+          "byteOffset": 14341120
+        },
+        {
+          "name": "transformer.h.5.mlp.fc1.bias",
+          "shape": [
+            10240
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 20480,
+          "byteOffset": 14750720
+        },
+        {
+          "name": "transformer.h.5.mlp.fc1.q_weight",
+          "shape": [
+            10240,
+            320
+          ],
+          "dtype": "uint32",
+          "format": "f32-to-bf16",
+          "nbytes": 13107200,
+          "byteOffset": 14771200
+        },
+        {
+          "name": "transformer.h.5.mlp.fc1.q_scale",
+          "shape": [
+            10240,
+            80
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 1638400,
+          "byteOffset": 27878400
+        },
+        {
+          "name": "transformer.h.5.mlp.fc2.bias",
+          "shape": [
+            2560
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 5120,
+          "byteOffset": 29516800
+        }
+      ],
+      "md5sum": "0da52346aa020051823e174b93bbf089"
+    },
+    {
+      "dataPath": "params_shard_44.bin",
+      "format": "raw-shard",
+      "nbytes": 29542400,
+      "records": [
+        {
+          "name": "transformer.h.5.mlp.fc2.q_weight",
+          "shape": [
+            2560,
+            1280
+          ],
+          "dtype": "uint32",
+          "format": "f32-to-bf16",
+          "nbytes": 13107200,
+          "byteOffset": 0
+        },
+        {
+          "name": "transformer.h.5.mlp.fc2.q_scale",
+          "shape": [
+            2560,
+            320
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 1638400,
+          "byteOffset": 13107200
+        },
+        {
+          "name": "transformer.h.6.ln.bias",
+          "shape": [
+            2560
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 5120,
+          "byteOffset": 14745600
+        },
+        {
+          "name": "transformer.h.6.ln.weight",
+          "shape": [
+            2560
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 5120,
+          "byteOffset": 14750720
+        },
+        {
+          "name": "transformer.h.6.mixer.Wqkv.bias",
+          "shape": [
+            7680
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 15360,
+          "byteOffset": 14755840
+        },
+        {
+          "name": "transformer.h.6.mixer.Wqkv.q_weight",
+          "shape": [
+            7680,
+            320
+          ],
+          "dtype": "uint32",
+          "format": "f32-to-bf16",
+          "nbytes": 9830400,
+          "byteOffset": 14771200
+        },
+        {
+          "name": "transformer.h.6.mixer.Wqkv.q_scale",
+          "shape": [
+            7680,
+            80
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 1228800,
+          "byteOffset": 24601600
+        },
+        {
+          "name": "transformer.h.6.mixer.out_proj.bias",
+          "shape": [
+            2560
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 5120,
+          "byteOffset": 25830400
+        },
+        {
+          "name": "transformer.h.6.mixer.out_proj.q_weight",
+          "shape": [
+            2560,
+            320
+          ],
+          "dtype": "uint32",
+          "format": "f32-to-bf16",
+          "nbytes": 3276800,
+          "byteOffset": 25835520
+        },
+        {
+          "name": "transformer.h.6.mixer.out_proj.q_scale",
+          "shape": [
+            2560,
+            80
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 409600,
+          "byteOffset": 29112320
+        },
+        {
+          "name": "transformer.h.6.mlp.fc1.bias",
+          "shape": [
+            10240
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 20480,
+          "byteOffset": 29521920
+        }
+      ],
+      "md5sum": "d77222810bb862af5db7a68518123fb2"
+    },
+    {
+      "dataPath": "params_shard_45.bin",
+      "format": "raw-shard",
+      "nbytes": 29521920,
+      "records": [
+        {
+          "name": "transformer.h.6.mlp.fc1.q_weight",
+          "shape": [
+            10240,
+            320
+          ],
+          "dtype": "uint32",
+          "format": "f32-to-bf16",
+          "nbytes": 13107200,
+          "byteOffset": 0
+        },
+        {
+          "name": "transformer.h.6.mlp.fc1.q_scale",
+          "shape": [
+            10240,
+            80
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 1638400,
+          "byteOffset": 13107200
+        },
+        {
+          "name": "transformer.h.6.mlp.fc2.bias",
+          "shape": [
+            2560
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 5120,
+          "byteOffset": 14745600
+        },
+        {
+          "name": "transformer.h.6.mlp.fc2.q_weight",
+          "shape": [
+            2560,
+            1280
+          ],
+          "dtype": "uint32",
+          "format": "f32-to-bf16",
+          "nbytes": 13107200,
+          "byteOffset": 14750720
+        },
+        {
+          "name": "transformer.h.6.mlp.fc2.q_scale",
+          "shape": [
+            2560,
+            320
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 1638400,
+          "byteOffset": 27857920
+        },
+        {
+          "name": "transformer.h.7.ln.bias",
+          "shape": [
+            2560
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 5120,
+          "byteOffset": 29496320
+        },
+        {
+          "name": "transformer.h.7.ln.weight",
+          "shape": [
+            2560
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 5120,
+          "byteOffset": 29501440
+        },
+        {
+          "name": "transformer.h.7.mixer.Wqkv.bias",
+          "shape": [
+            7680
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 15360,
+          "byteOffset": 29506560
+        }
+      ],
+      "md5sum": "abef69e8972c5f5d10a9e97eff55e451"
+    },
+    {
+      "dataPath": "params_shard_46.bin",
+      "format": "raw-shard",
+      "nbytes": 29521920,
+      "records": [
+        {
+          "name": "transformer.h.7.mixer.Wqkv.q_weight",
+          "shape": [
+            7680,
+            320
+          ],
+          "dtype": "uint32",
+          "format": "f32-to-bf16",
+          "nbytes": 9830400,
+          "byteOffset": 0
+        },
+        {
+          "name": "transformer.h.7.mixer.Wqkv.q_scale",
+          "shape": [
+            7680,
+            80
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 1228800,
+          "byteOffset": 9830400
+        },
+        {
+          "name": "transformer.h.7.mixer.out_proj.bias",
+          "shape": [
+            2560
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 5120,
+          "byteOffset": 11059200
+        },
+        {
+          "name": "transformer.h.7.mixer.out_proj.q_weight",
+          "shape": [
+            2560,
+            320
+          ],
+          "dtype": "uint32",
+          "format": "f32-to-bf16",
+          "nbytes": 3276800,
+          "byteOffset": 11064320
+        },
+        {
+          "name": "transformer.h.7.mixer.out_proj.q_scale",
+          "shape": [
+            2560,
+            80
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 409600,
+          "byteOffset": 14341120
+        },
+        {
+          "name": "transformer.h.7.mlp.fc1.bias",
+          "shape": [
+            10240
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 20480,
+          "byteOffset": 14750720
+        },
+        {
+          "name": "transformer.h.7.mlp.fc1.q_weight",
+          "shape": [
+            10240,
+            320
+          ],
+          "dtype": "uint32",
+          "format": "f32-to-bf16",
+          "nbytes": 13107200,
+          "byteOffset": 14771200
+        },
+        {
+          "name": "transformer.h.7.mlp.fc1.q_scale",
+          "shape": [
+            10240,
+            80
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 1638400,
+          "byteOffset": 27878400
+        },
+        {
+          "name": "transformer.h.7.mlp.fc2.bias",
+          "shape": [
+            2560
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 5120,
+          "byteOffset": 29516800
+        }
+      ],
+      "md5sum": "1f0a30edcdd904160ce3321a4a8e66a9"
+    },
+    {
+      "dataPath": "params_shard_47.bin",
+      "format": "raw-shard",
+      "nbytes": 29542400,
+      "records": [
+        {
+          "name": "transformer.h.7.mlp.fc2.q_weight",
+          "shape": [
+            2560,
+            1280
+          ],
+          "dtype": "uint32",
+          "format": "f32-to-bf16",
+          "nbytes": 13107200,
+          "byteOffset": 0
+        },
+        {
+          "name": "transformer.h.7.mlp.fc2.q_scale",
+          "shape": [
+            2560,
+            320
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 1638400,
+          "byteOffset": 13107200
+        },
+        {
+          "name": "transformer.h.8.ln.bias",
+          "shape": [
+            2560
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 5120,
+          "byteOffset": 14745600
+        },
+        {
+          "name": "transformer.h.8.ln.weight",
+          "shape": [
+            2560
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 5120,
+          "byteOffset": 14750720
+        },
+        {
+          "name": "transformer.h.8.mixer.Wqkv.bias",
+          "shape": [
+            7680
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 15360,
+          "byteOffset": 14755840
+        },
+        {
+          "name": "transformer.h.8.mixer.Wqkv.q_weight",
+          "shape": [
+            7680,
+            320
+          ],
+          "dtype": "uint32",
+          "format": "f32-to-bf16",
+          "nbytes": 9830400,
+          "byteOffset": 14771200
+        },
+        {
+          "name": "transformer.h.8.mixer.Wqkv.q_scale",
+          "shape": [
+            7680,
+            80
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 1228800,
+          "byteOffset": 24601600
+        },
+        {
+          "name": "transformer.h.8.mixer.out_proj.bias",
+          "shape": [
+            2560
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 5120,
+          "byteOffset": 25830400
+        },
+        {
+          "name": "transformer.h.8.mixer.out_proj.q_weight",
+          "shape": [
+            2560,
+            320
+          ],
+          "dtype": "uint32",
+          "format": "f32-to-bf16",
+          "nbytes": 3276800,
+          "byteOffset": 25835520
+        },
+        {
+          "name": "transformer.h.8.mixer.out_proj.q_scale",
+          "shape": [
+            2560,
+            80
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 409600,
+          "byteOffset": 29112320
+        },
+        {
+          "name": "transformer.h.8.mlp.fc1.bias",
+          "shape": [
+            10240
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 20480,
+          "byteOffset": 29521920
+        }
+      ],
+      "md5sum": "65f4a4d846b00069654128141307fba0"
+    },
+    {
+      "dataPath": "params_shard_48.bin",
+      "format": "raw-shard",
+      "nbytes": 29521920,
+      "records": [
+        {
+          "name": "transformer.h.8.mlp.fc1.q_weight",
+          "shape": [
+            10240,
+            320
+          ],
+          "dtype": "uint32",
+          "format": "f32-to-bf16",
+          "nbytes": 13107200,
+          "byteOffset": 0
+        },
+        {
+          "name": "transformer.h.8.mlp.fc1.q_scale",
+          "shape": [
+            10240,
+            80
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 1638400,
+          "byteOffset": 13107200
+        },
+        {
+          "name": "transformer.h.8.mlp.fc2.bias",
+          "shape": [
+            2560
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 5120,
+          "byteOffset": 14745600
+        },
+        {
+          "name": "transformer.h.8.mlp.fc2.q_weight",
+          "shape": [
+            2560,
+            1280
+          ],
+          "dtype": "uint32",
+          "format": "f32-to-bf16",
+          "nbytes": 13107200,
+          "byteOffset": 14750720
+        },
+        {
+          "name": "transformer.h.8.mlp.fc2.q_scale",
+          "shape": [
+            2560,
+            320
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 1638400,
+          "byteOffset": 27857920
+        },
+        {
+          "name": "transformer.h.9.ln.bias",
+          "shape": [
+            2560
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 5120,
+          "byteOffset": 29496320
+        },
+        {
+          "name": "transformer.h.9.ln.weight",
+          "shape": [
+            2560
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 5120,
+          "byteOffset": 29501440
+        },
+        {
+          "name": "transformer.h.9.mixer.Wqkv.bias",
+          "shape": [
+            7680
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 15360,
+          "byteOffset": 29506560
+        }
+      ],
+      "md5sum": "575fbe1ea85321ad742ebe3b4b72a4c9"
+    },
+    {
+      "dataPath": "params_shard_49.bin",
+      "format": "raw-shard",
+      "nbytes": 29521920,
+      "records": [
+        {
+          "name": "transformer.h.9.mixer.Wqkv.q_weight",
+          "shape": [
+            7680,
+            320
+          ],
+          "dtype": "uint32",
+          "format": "f32-to-bf16",
+          "nbytes": 9830400,
+          "byteOffset": 0
+        },
+        {
+          "name": "transformer.h.9.mixer.Wqkv.q_scale",
+          "shape": [
+            7680,
+            80
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 1228800,
+          "byteOffset": 9830400
+        },
+        {
+          "name": "transformer.h.9.mixer.out_proj.bias",
+          "shape": [
+            2560
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 5120,
+          "byteOffset": 11059200
+        },
+        {
+          "name": "transformer.h.9.mixer.out_proj.q_weight",
+          "shape": [
+            2560,
+            320
+          ],
+          "dtype": "uint32",
+          "format": "f32-to-bf16",
+          "nbytes": 3276800,
+          "byteOffset": 11064320
+        },
+        {
+          "name": "transformer.h.9.mixer.out_proj.q_scale",
+          "shape": [
+            2560,
+            80
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 409600,
+          "byteOffset": 14341120
+        },
+        {
+          "name": "transformer.h.9.mlp.fc1.bias",
+          "shape": [
+            10240
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 20480,
+          "byteOffset": 14750720
+        },
+        {
+          "name": "transformer.h.9.mlp.fc1.q_weight",
+          "shape": [
+            10240,
+            320
+          ],
+          "dtype": "uint32",
+          "format": "f32-to-bf16",
+          "nbytes": 13107200,
+          "byteOffset": 14771200
+        },
+        {
+          "name": "transformer.h.9.mlp.fc1.q_scale",
+          "shape": [
+            10240,
+            80
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 1638400,
+          "byteOffset": 27878400
+        },
+        {
+          "name": "transformer.h.9.mlp.fc2.bias",
+          "shape": [
+            2560
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 5120,
+          "byteOffset": 29516800
+        }
+      ],
+      "md5sum": "04ce5dadc8ae297db5f1266d8b550cff"
+    },
+    {
+      "dataPath": "params_shard_50.bin",
+      "format": "raw-shard",
+      "nbytes": 14745600,
+      "records": [
+        {
+          "name": "transformer.h.9.mlp.fc2.q_weight",
+          "shape": [
+            2560,
+            1280
+          ],
+          "dtype": "uint32",
+          "format": "f32-to-bf16",
+          "nbytes": 13107200,
+          "byteOffset": 0
+        },
+        {
+          "name": "transformer.h.9.mlp.fc2.q_scale",
+          "shape": [
+            2560,
+            320
+          ],
+          "dtype": "float16",
+          "format": "f32-to-bf16",
+          "nbytes": 1638400,
+          "byteOffset": 13107200
+        }
+      ],
+      "md5sum": "aba9e786e64b134eb1618e8ce0b1b71c"
+    }
+  ]
+}
