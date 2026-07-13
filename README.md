@@ -10,8 +10,13 @@ in de browser draait op de voorgecompileerde `phi-2` runtime. Daarvoor is de
 vocab gepadded van 50297 naar 51200 (identiek aan de originele phi-2-lay-out);
 de extra rijen zijn nul en worden nooit gesampled.
 
-De conversie gebeurt volledig in GitHub Actions: zie
-`.github/workflows/convert.yml` en `pad_vocab.py`.
+De conversie is gedaan met `convert_fietje.py`: pure numpy, zonder de
+mlc_llm-toolchain (waarvan de mac/linux-wheels op dit moment onderling
+incompatibel zijn). De officiële mlc-ai/phi-2-q4f16_1-MLC dient als
+byte-layout-template; de q4f16_1-quantisatie is bit-exact gereproduceerd
+(bewijs: `verify_quant.py` en `diagnose_round.py` — scale = maxabs × f16(1/7),
+afronding = banker's round na een f16-add van +7). Vocab-padding zit in de
+converter zelf.
 
 Gebruik in WebLLM:
 
@@ -20,7 +25,7 @@ const appConfig = {
   model_list: [{
     model: "https://raw.githubusercontent.com/Starfish124/fietje-2-chat-q4f16_1-MLC/main/resolve/main",
     model_id: "fietje-2-chat-q4f16_1-MLC",
-    model_lib: "https://raw.githubusercontent.com/mlc-ai/binary-mlc-llm-libs/main/web-llm-models/v0_2_84/phi-2-q4f16_1_cs1k-webgpu.wasm",
+    model_lib: "https://raw.githubusercontent.com/mlc-ai/binary-mlc-llm-libs/main/web-llm-models/v0_2_80/phi-2-q4f16_1-ctx2k_cs1k-webgpu.wasm",
     vram_required_MB: 3054,
     required_features: ["shader-f16"],
     overrides: { context_window_size: 2048 }
